@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Ransomware: a general view after field experiences &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Feb 16, 2016</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 1600 words 8 min. read
+        </div>
+        <h1>Ransomware: a general view after field experiences</h1>
+        <section id="post-content" class="article-content post">
+          <div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">Even if Ransomware is not one of my favorite topics, since are simple Malware without specific targets (at least util today), I am currently observing a huge increment of this threat in companies, agencies and in private users as well. For such a reason I decided to write a little bit about them in my personal 'CyberSecurity Timeline' (.. well... my blog :). I am not going to describe a specific kind of Ransomware or to show you out spectacular code or reverse techniques, in this "post" I just want to wrap many experiences on this topoc and to make more general though and memories.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">According to <a href="https://www.netfort.com/blog/history-of-ransomware-attacks/#.VsAjhfFoxXU">Netfort</a> and <a href="http://blog.trendmicro.com/trendlabs-security-intelligence/the-prevalence-of-crypto-ransomware/">TrendMicro </a>ransomware is not a real news in&nbsp; cyber securiy, indeed:</div><div style="text-align: justify;"><blockquote class="tr_bq">it was1989, the year of the “AIDS” trojan, aka. “Aids Info Disk” or “PC Cyborg Trojan” which replaced the AUTOEXEC.BAT file and it would then count the number of times the machine had booted, once it reached 90 days it would then hide directories and encrypt the names of all the files on the C: drive and rendered the system to be unusable. It would then display a message to the user asking them to “renew the license” and contact PC Cyborg Corporation for payment, this involved sending $189 to a post office box in Panama!</blockquote></div><div style="text-align: justify;">&nbsp; During the past decade two main kinds of Ransomware were observed:</div><ol style="text-align: justify;"><li><b>Locker</b> <b>Ransomware</b>. Aim of these threats is to deny the access of an entire victims' machine. One of the most famous exponent of this cathegory is the <b>FBI</b> <b>Locker</b>.</li><li><b>Data Ransomware. </b>Aim of these threats is to deny the access of victims's data. One of the most famous exponent of this cathegory is the <b>CryptoLocker</b>.</li></ol><div style="text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-F2upHKMm12k/VsAxbGm0cVI/AAAAAAAAMkg/1dS8NNErQTE/s1600/Virus-cryptolocker-come-proteggersi.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="143" src="https://1.bp.blogspot.com/-sIMkopdHSzY/VsAxaOirDaI/AAAAAAAAMkc/K9-ePLYIlgE/s200/eset-fbi-ransomware-s.png" width="200" /> <img border="0" height="145" src="https://1.bp.blogspot.com/-F2upHKMm12k/VsAxbGm0cVI/AAAAAAAAMkg/1dS8NNErQTE/s200/Virus-cryptolocker-come-proteggersi.png" width="200" /></a></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Both of the threats tamper with the user need of getting access to something she desires (like for example: PC, or Data) exploiting the 'attack momentum' by asking few money. The user might be fooled because she believes to get the data/machine back by simply pay few bucks and she prefix to be more careful in the next future.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>What kind of platform do they infect ?</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Nowadays are known Rasomware for: <b>Microsoft</b> <b>Windows</b> (not care versions), <b>MAC</b> <b>OSX</b>, <b>Linux</b> (mostly Debian and RedHat based) and <b>Android. </b>Mostly of the infected systems belong to Personal Computers and Mobile Deices but Servers (such as: FTP, Domain Controls and Http) are affected to.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Another interesting (at least on my personal point of view) question is how <b>do they get into my device ?</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Understanding how they propagate through machines is a foundamental step to prevent them ! Unfortunately they do not use a favorite propagation vector. From the victim perspective I observed many propagation vectors based on eMAIL and Social Engineering tricks. But many of the most known ransomware such as (but not limited to): NanoLocker, Crypt0L0ker, CryptoWall and TeslaCrypt are spread over <a href="http://marcoramilli.blogspot.it/2015/08/exploit-kits-on-august-2015.html">Exploit Kits</a> (mainly malvertisement, watering hole) and Downloaders as well. </div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>What are the most common payment methods ?</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">A key point in Ransomware economy is the 'payment method', the most used and spread one -- which I see nowadays -- is by using the&nbsp; <a href="http://www.bitcoin.org/">BitCoin</a> or <a href="https://litecoin.org/">LiteCoin</a> channls.&nbsp; If associated with a <a href="https://bitlaunder.com/">laudry service</a> could guarantee a reasonable anonymity level.&nbsp; A total different topic is the decision to pay or not to pay the attacker. It is not easy for victims to decide whether or not to pay the ransom demand to get their files back. With data now being essential to many organizations, not paying the demands and losing data could have catastrophic effects, such as closing a business down. On the other hand, paying the ransom demand only encourages even more crypto ransomware campaigns.&nbsp; Some Ransomware such as (but not limited to) CTBLocker offer a "try and buy" capability in order to goad the customer ... hem.. the victm.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>How do the ransomware writers earn money ?</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">In 2009 a <a href="http://www.symantec.com/content/en/us/enterprise/media/security_response/whitepapers/ransomware-a-growing-menace.pdf">Symantec report</a> found that almost the 3% of victims paid the ransom demand. The report also found that one of the smaller ransomware players managed to infect 68,000 computers in just one month, which could have resulted in victims being defrauded of up to US$400,000 in total.In March 2014, Symantec found that Trojan.Cryptowall earned at least US$34,000 in its first month of operations. A further study of Cryptowall by other information security researchers found that by August 2014, Cryptowall had earned more than US$1.1 million. In June 2015, data from the FBI’s Internet Crime Complaint Center (IC3) showed that between April 2014 and June 2015, it had received 992 Cryptowall-related complaints. The victims were a mix of end users and businesses, and the resulting losses from these cases amounted to more than US$18 million. </div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">While all ransomware are designed to extort money they can do quite different in both techniques and technologies.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>What technique do ransomware use to infect the target system ?</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Encryption as far I observed is the most used technique:&nbsp;</b></div><div style="text-align: justify;"></div><div style="text-align: justify;">Old ransomware (such as SimpleLocker) have got symmetric key inside the code. They used that key (typically AES256) to encrypt data.This technique makes the malware 'orthogonal' by meaning they do not need interaction with external sources to start their job, so they are "ready to encrypt" as soon as they reach the target. On the other hand this technique is weak if a reverse engineer take over it. Once an Cyber Analyst detects the used encryption key he will be able to write the right "decryptor" program freeing the victims without paying the ransom.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Modern ransomware use to dowload a public RSA/DSA key to encrypt the victim's file. Only the attacker will be able to decrypt the victims files since the used asymmetric encryption technique.&nbsp; On one hand this technique is much more "safe" for the attacker perspective which he does not need to worry about key discovery; but on the other hand it is slower in encryption, if compared to the symetric key technique. Encryption speed is foundamental topic for ransomware writers, since increasing the encryption time means increasing the probability of being detected and stopped.&nbsp;</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Current ransomware implements a mixed technology (for example CryptoDefence) in where they use asymmetric keys techniques to exchange symmetric key which will be used to encrypt target data. In this way ransomware need internet connection to communicate through their Command and Control System in order to download keys and to communicate the 'end of encryption' once done their job. Both C&amp;C and network communication introduce two more identification factors that might be used agains the ransomware's writers to detect and block his Malware.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Encryption strategies:</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">What to encrypt first is a mandatory question that every ransomware writer should be aware of. Indeed if the ransomware encrypts randomly it might get into big files which will take more resource and time to get encrypted. This will <span class="short_text" id="result_box" lang="en"><span class="hps">surprisingly</span></span> increasing the probability to be identified and to be blocked.</div><div style="text-align: justify;"><b> </b></div><div style="text-align: justify;">Old ransomware did not care about file size, at that time the ransomware threat was not so spread and they could afford the risk to be identified and blocked.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Most recent ransomware they first order the target folder and start the encryption phase from the smallest file. In this scenario the ransomware increases the probability to encrypt much more files before being identified, which proportionaly increases the probability to get cash from victim!</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Recently I observed some variants of TeslaCrypt and TorrentLocker which use to encrypt only the first 1024 Bytes of a file and then move to the next one. This hybrid technique is used in order to increase the probability to encrypt files for what victim will pay for even if on the target machine are found big files (VM, Image file, ISO, etc.).</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><br /><b>How do they communicate to the victim ?</b></div><div style="text-align: justify;"><b><br /></b></div><div style="text-align: justify;">Usually ransomware implement 3 different victim communication channls:</div><ol style="text-align: justify;"><li><b>Broswer channel</b>. Ransomware replace your browser home page and/or inject themselves into the broswer process and respond to every internet request their own ransom page.</li><li><b>File channel. </b>Ransomware write a lot of "README" files which happen to be the only one the victim might read.</li><li><b>Messages Box. </b>Ransomware writers might decide to communicate to the victime the&nbsp; request by opening up MessageBox directly from OS'syscall.</li></ol><div style="text-align: justify;"><b>How do they communicate to C&amp;C to unlock files once rasom has been payed ?</b></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">There are many different scenarios aobut back communications to the attacker. Some Ransomware does not need to comunicate to thier own command and control at all, the attacker knows about the payment through a covert channel into bitcoin blockchain. On the other hand the communcation might happen through simple HTTP protocol or even through UDP single packets. Again, it is very aleatory, some communication methods are more sophysticated then other, but each one works pretty well and will be not complex to implement.<b></b> <a href="http://cyberintelligence.org/">CyberIntelligence.org</a> realised a nice tool to monitor one of the most spread Rasomware <a href="http://cyberthreatalliance.org/cryptowall-dashboard.html">Cryptowall</a>. On the web site you will appreciate the C&amp;C tracker, the spreading URLS and even new samples, but it's not going to be enough. Rasomware are sold as a service like Tox and many others, it will be super difficult being able to trace all of them.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">I do not have conclusions on this specific topic but only a pesonal view of the threat. Ransomware is a mature threat (so many incarnations out there): you can easily find library and kits for built Ransomware on average price of 150 bucks (or even less on Dark Markets) ! Usually once a technology reaches this grade of maturity it became "local". On my personal point of view we will see the increase of Localized Ransomware threats, starting from languages ending up to targeting specific organizations.</div></div>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Ransomware%3a%20a%20general%20view%20after%20field%20experiences-http%3a%2f%2fmarcoramilli.com%2fpost%2fransomware-a-general-view-after-field-experiences%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2fransomware-a-general-view-after-field-experiences%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fransomware-a-general-view-after-field-experiences%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2fransomware-a-general-view-after-field-experiences%2f&title=Ransomware%3a%20a%20general%20view%20after%20field%20experiences" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fransomware-a-general-view-after-field-experiences%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fransomware-a-general-view-after-field-experiences%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

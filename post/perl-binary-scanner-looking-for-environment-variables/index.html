@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Perl Binary Scanner: looking for environment variables &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Jun 6, 2010</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 300 words 2 min. read
+        </div>
+        <h1>Perl Binary Scanner: looking for environment variables</h1>
+        <section id="post-content" class="article-content post">
+          <div style="text-align: justify;">Hi folks, today I run into the following pretty awesome perl script which checks a binary file for environment variables.  As many of you know one of the most common mistakes in writing code is to trust to environment variables, which might be modified by external users. Don't you get that ? So let's assume the following example: "A" uses the environment variable called "Path to X" to run the  "X" program. The "X" program is supposed to perform a simple "O" operation running with the same rights of "A". An attacker who knows that "A" uses "Path to X" for running "X" can modify the variable "Path to X" to  "Path to Fake X" which performs a different operation  " O' ". Here we are ! So the following script is a pretty simple and minimalist one but it does the job. </div><div style="text-align: justify;">
+<br /></div><div style="text-align: justify;">
+<br /></div><div style="text-align: justify;">
+<br /></div><div style="text-align: justify;"><p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #007400">#!/usr/bin/perl</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #007400"># syntax: ./getenv.pl </path/to/binary>.</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; min-height: 14.0px">
+<br /></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #007400"># (1/4): return values to ignore.</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #c41a16"><span style="color: #000000">$skip=</span>"TTOU TTIN TSTP STOP CONT CHLD STKFLT ALRM PIPE USR2 SEGV USR1 KILL FPE BUS IOT ABRT TRAP ILL QUIT INT HUP _DYNAMIC _GLOBAL_OFFSET_TABLE_ --"<span style="color: #000000">;</span></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #007400"># (2/4): script signals.</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">$SIG{'INT'}=\&dataexit;</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">$SIG{'TSTP'}=\&dataexit;</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #007400"># (3/4): script routines.</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco"><span style="color: #aa0d91">sub</span> out{<span style="color: #aa0d91">print</span> STDERR<span style="color: #c41a16">"[*] @_"</span>;}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco"><span style="color: #aa0d91">sub</span> outr{<span style="color: #aa0d91">print</span> STDERR<span style="color: #c41a16">"@_"</span>;}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco"><span style="color: #aa0d91">sub</span> outq{<span style="color: #aa0d91">print</span> STDERR<span style="color: #c41a16">"[!] @_"</span>;<span style="color: #aa0d91">exit</span>(-<span style="color: #1c00cf">1</span>);}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco"><span style="color: #aa0d91">sub</span> isvalid{$char=<span style="color: #aa0d91">substr</span>(<span style="color: #aa0d91">shift</span>,<span style="color: #1c00cf">0</span>,<span style="color: #1c00cf">1</span>);<span style="color: #aa0d91">if</span>(<span style="color: #aa0d91">ord</span>($char)><span style="color: #1c00cf">64</span>&amp;&amp;<span style="color: #aa0d91">ord</span>($char)<<span style="color: #1c00cf">91</span>||<span style="color: #aa0d91">ord</span>($char)><span style="color: #1c00cf">47</span>&amp;&amp;<span style="color: #aa0d91">ord</span>($char)<<span style="color: #1c00cf">58</span>||<span style="color: #aa0d91">ord</span>($char)==<span style="color: #1c00cf">45</span>||<span style="color: #aa0d91">ord</span>($char)==<span style="color: #1c00cf">95</span>){<span style="color: #aa0d91">return</span>(<span style="color: #1c00cf">1</span>);}<span style="color: #aa0d91">return</span>(<span style="color: #1c00cf">0</span>);}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco"><span style="color: #aa0d91">sub</span> readbinary{</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #c41a16"><span style="color: #000000"> out(</span>"$0(3): getenv() binary scanner, by: vade79[v9\@fakehalo.org].\n"<span style="color: #000000">);</span></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #c41a16"><span style="color: #000000"> </span><span style="color: #aa0d91">open</span><span style="color: #000000">(BINARY,</span><span style="color: #aa0d91">shift</span><span style="color: #000000">)||outq(</span>"could not open binary.\n"<span style="color: #000000">);out(</span>"opened binary successfully.\n"<span style="color: #000000">);</span></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco"> @read=<binary>;<span style="color: #aa0d91">close</span>(BINARY);$i=<span style="color: #1c00cf">0</span>;$tokens=@read;out(<span style="color: #c41a16">"scanning binary($tokens): "</span>);<span style="color: #aa0d91">while</span>($read[$i]){</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">  @tmpread=<span style="color: #aa0d91">split</span>(<span style="color: #aa0d91">chr</span>(<span style="color: #1c00cf">0</span>),$read[$i]);$tokens=@tmpread;$j=-<span style="color: #1c00cf">1</span>;<span style="color: #aa0d91">while</span>($j<$tokens){</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">   $j++;$k=<span style="color: #1c00cf">0</span>;<span style="color: #aa0d91">while</span>(isvalid(<span style="color: #aa0d91">substr</span>($tmpread[$j],$k,<span style="color: #1c00cf">1</span>))&amp;&amp;<span style="color: #aa0d91">length</span>($tmpread[$j])><span style="color: #1c00cf">1</span>){</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">    <span style="color: #aa0d91">if</span>($k+<span style="color: #1c00cf">1</span>==<span style="color: #aa0d91">length</span>($tmpread[$j])){</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">     $m=<span style="color: #1c00cf">0</span>;@s=<span style="color: #aa0d91">split</span>(/ /,$skip);$l=<span style="color: #1c00cf">0</span>;<span style="color: #aa0d91">while</span>($s[$l]){<span style="color: #aa0d91">if</span>($s[$l]<span style="color: #aa0d91">eq</span>$tmpread[$j]){$m++;}$l++;}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">     @s=<span style="color: #aa0d91">split</span>(/,/,$result);$l=<span style="color: #1c00cf">0</span>;<span style="color: #aa0d91">while</span>($s[$l]){<span style="color: #aa0d91">if</span>($s[$l]<span style="color: #aa0d91">eq</span>$tmpread[$j]||$s[$l]<span style="color: #aa0d91">eq</span><span style="color: #c41a16">" $tmpread[$j]"</span>){$m++;}$l++;}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">     <span style="color: #aa0d91">if</span>(!$m&amp;&amp;<span style="color: #aa0d91">substr</span>($tmpread[$j],<span style="color: #1c00cf">0</span>,<span style="color: #1c00cf">3</span>)<span style="color: #aa0d91">ne</span><span style="color: #c41a16">"SIG"</span>&amp;&amp;<span style="color: #aa0d91">substr</span>($tmpread[$j],<span style="color: #1c00cf">0</span>,<span style="color: #1c00cf">2</span>)<span style="color: #aa0d91">ne</span><span style="color: #c41a16">"__"</span>&amp;&amp;<span style="color: #aa0d91">substr</span>($tmpread[$j],<span style="color: #aa0d91">length</span>($tmpread[$j])-<span style="color: #1c00cf">2</span>,<span style="color: #1c00cf">2</span>)<span style="color: #aa0d91">ne</span><span style="color: #c41a16">"__"</span>){</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">      <span style="color: #aa0d91">if</span>(!$result){$result=$tmpread[$j];}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #c41a16"><span style="color: #000000">      </span><span style="color: #aa0d91">else</span><span style="color: #000000">{$result=</span>"$result, $tmpread[$j]"<span style="color: #000000">;}</span></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">     }</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">    }</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">    $k++;</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">   }</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">  }</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">  $i++;outr(<span style="color: #c41a16">"."</span>);</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco"> }</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #c41a16"><span style="color: #000000"> outr(</span>"done!\n"<span style="color: #000000">);</span></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco"><span style="color: #aa0d91">sub</span> data{</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #c41a16"><span style="color: #000000"> </span><span style="color: #aa0d91">if</span><span style="color: #000000">($result){out(</span>"typical getenv() possibilities: $result.\n"<span style="color: #000000">);}</span></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #c41a16"><span style="color: #000000"> </span><span style="color: #aa0d91">else</span><span style="color: #000000">{out(</span>"no typical getenv() possibilities found.\n"<span style="color: #000000">);}</span></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco"><span style="color: #aa0d91">sub</span> dataexit{outr(<span style="color: #c41a16">"cut!\n"</span>);data;outq(<span style="color: #c41a16">"cut run, finished.\n"</span>);}</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #007400"># (4/4): script init.</p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #c41a16"><span style="color: #aa0d91">if</span><span style="color: #000000">(!$ARGV[</span><span style="color: #1c00cf">0</span><span style="color: #000000">]){outq(</span>"syntax: $0 </path/to/binary>\n"<span style="color: #000000">);}</span></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco; color: #c41a16"><span style="color: #aa0d91">if</span><span style="color: #000000">(!-f$ARGV[</span><span style="color: #1c00cf">0</span><span style="color: #000000">]){outq(</span>"error, binary not found.\n"<span style="color: #000000">);}</span></p> <p style="margin: 0.0px 0.0px 0.0px 0.0px; font: 10.0px Monaco">readbinary($ARGV[<span style="color: #1c00cf">0</span>]);data;out(<span style="color: #c41a16">"clean run, finished.\n"</span>);<span style="color: #aa0d91">exit</span>(<span style="color: #1c00cf">0</span>);</p><div><span class="Apple-style-span"   style="font-family:Monaco, serif;font-size:85%;"><span class="Apple-style-span" style="font-size: 10px;">
+<br /></span></span></div></div><div style="text-align: left;">
+<br /></div><div style="text-align: left;"> BTW, yes of course  it also does search for getenv() checking out for buffer overflows  ... ;] But this is a very specific one. :]</div>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Perl%20Binary%20Scanner%3a%20looking%20for%20environment%20variables-http%3a%2f%2fmarcoramilli.com%2fpost%2fperl-binary-scanner-looking-for-environment-variables%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2fperl-binary-scanner-looking-for-environment-variables%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fperl-binary-scanner-looking-for-environment-variables%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2fperl-binary-scanner-looking-for-environment-variables%2f&title=Perl%20Binary%20Scanner%3a%20looking%20for%20environment%20variables" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fperl-binary-scanner-looking-for-environment-variables%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fperl-binary-scanner-looking-for-environment-variables%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> From ROP to LOP bypassing Control FLow Enforcement &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Jun 22, 2016</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 1100 words 5 min. read
+        </div>
+        <h1>From ROP to LOP bypassing Control FLow Enforcement</h1>
+        <section id="post-content" class="article-content post">
+          <div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">Once upon a time breaking the Stack (<a href="http://phrack.org/issues/49/14.html">here</a>) was a metter of indexes and executables memory areas (<a href="http://lia.deis.unibo.it/Courses/SicurezzaM1011/BufferoVerflow.pdf">here</a>). Then it came a DEP protection (<a href="https://support.microsoft.com/en-us/kb/875352">here</a>) which disabled a particular area from being executable. This is the fantastic story of <b>ROP</b> (Return Oriented Programming) from which I've been working for long time in writing exploiting and re-writing "resurrectors" (software engines able to convert old exploits into brand new ROP enabled exploits), please take a look:&nbsp;<a href="http://marcoramilli.blogspot.it/2011/08/rop-stack-compensation.html">here</a>, <a href="http://marcoramilli.blogspot.it/2011/08/rop-stack-pivoting.html">here</a>, <a href="http://marcoramilli.blogspot.it/2011/07/rop-notes.html">here</a>, <a href="http://marcoramilli.blogspot.it/2011/12/from-rop-to-jop.html">here</a>, <a href="http://marcoramilli.blogspot.it/2012/03/rop-and-derop.html">here</a>&nbsp;and <a href="https://www.computer.org/csdl/mags/sp/2012/06/msp2012060084-abs.html">here</a>. Now it's time to a new way of stack protection named <b>Control-Flow Enforcement </b>designed by Intel. <b>CFE </b>aims to prevent stack execution by using a "canary" stack .. ops this was the old way to call it.. right let me repeat the sentence... by using a "shadow stack" aiming to compare return addresses and a "Indirect Branching Tracking" aiming to track down every valid indirect call/jmp on target program.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">Well, I made a joke mentioning the ancient canary words which might remind you how useless it was adding a canary control Byte (or 4 bits, actually) to enforce the entire stack, b<u>ut this time is structurally &nbsp;different</u>. We are not facing a canary stack which could be adjusted by user by using "stores commands" such as: MOV, PUSH, POP, XSAVE, but is a user/kernel memory space exclusively used by "control flow commands" such as: CALL, RET, NEAR, FAR, etc. <br /><br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-3MXmZ16ehhk/V2OcuT01wlI/AAAAAAAAM80/wDvI680gXTUNaayFIkUIKI5MXlmgUlVKQCLcB/s1600/Screen%2BShot%2B2016-06-17%2Bat%2B08.45.53.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="118" src="https://3.bp.blogspot.com/-3MXmZ16ehhk/V2OcuT01wlI/AAAAAAAAM80/wDvI680gXTUNaayFIkUIKI5MXlmgUlVKQCLcB/s400/Screen%2BShot%2B2016-06-17%2Bat%2B08.45.53.png" width="400" /></a></div><br /></div><div style="text-align: justify;"><blockquote class="tr_bq">When shadow stacks are enabled, the CALL instruction pushes the return address on both the data and shadow stack. The RET instruction pops the return address from both stacks and compares them. If the return addresses from the two stacks do not match, the processor signals a control protection exception (#CP). Note that the shadow stack only holds the return addresses and not parameters passed to the call instruction. To provide this protection the page table protections are extended to support an additional attribute for pages to mark them as “Shadow Stack” pages. &nbsp;(Figure1 from <a href="https://software.intel.com/sites/default/files/managed/4d/2a/control-flow-enforcement-technology-preview.pdf">here</a>)</blockquote>Just to make things a little harder (but it's going to be very useful to introduce a way to bypass Stack Shadow) let me introduce to you a more comprehensive stack defencing framework, defined by <a href="http://research.microsoft.com/pubs/64250/ccs05.pdf">Abadi et al&nbsp;</a>&nbsp;and called <b>Control-Flow Integrity</b> framework. Following I borrow the classification described by Bingchen Lan et Al. on their paper (available&nbsp;<a href="https://www.sec.in.tum.de/assets/staff/muntean/Loop-Oriented_Programming_A_New_Code_Reuse_Attack_to_Bypass_Modern0ADefenses.pdf">here</a>) reporting 4 kinds of Control Flow Integrity Policies (CFI):<br /><ul><li><b>CFI-call</b>. The target address of an indirect call has to point to the beginning of a function. For instance, indirect call is constrained to the limited addresses, which are specified through statically scanning the binary for function entries. </li><li><b>CFI-jump.</b> The target address of an indirect jump should be either the beginning of another function or inside the function where this jump instruction lies. For instance, Branch Regulation prevents jumps across function boundaries to stop attackers from modifying the addresses of indirect jumps. </li><li><b>CFI-ret.</b> In coarse-grained CFI, the target address of a ret instruction should point to the location right after any call site. Shadow stack further enhances this constraint, i.e. the ret instruction accurately corresponds to the location after the legitimate call site in its caller. </li><li><b>CFI-heuristics.</b> Apart from enforcing specific policies on indirect branches as CFI-call, CFI-jump and CFI-ret do, some CFI solutions tend to detect attacks by validating the number of consecutive sequences of small gadgets.</li></ul>During the past few years many attack mechanisms bypassed the CIF policies, let me sum they up on the following table.<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-839SLQy1sBU/V2OjjSkY5sI/AAAAAAAAM9E/dU2dbwDFfFsQryDhkCr37B22liBhoysfACLcB/s1600/Screen%2BShot%2B2016-06-17%2Bat%2B09.14.11.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="276" src="https://3.bp.blogspot.com/-839SLQy1sBU/V2OjjSkY5sI/AAAAAAAAM9E/dU2dbwDFfFsQryDhkCr37B22liBhoysfACLcB/s400/Screen%2BShot%2B2016-06-17%2Bat%2B09.14.11.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Figure 2 Comparing attack strategies the green "check" means the technique can bypass the defence policy, the red "x" means it cannot</td></tr></tbody></table><br />Lets assume to be able to implement CFI-Ret and CFI-Jump (or CFI-Heuristics ) techniques in a single system. We might apparently guarantee Control Flow Integrity ! Well, it was "kind of true" since Bingchen Lan, Yan Li, Hao Sun, Chao Su, Yao Liu, Qingkai Zeng introduced in a well done paper (<a href="https://www.sec.in.tum.de/assets/staff/muntean/Loop-Oriented_Programming_A_New_Code_Reuse_Attack_to_Bypass_Modern0ADefenses.pdf">here</a>) a <b>LOP </b>Loop Oriented Programming technique. &nbsp;The main idea is to choose entire functions as gadget instead of using short code fragments or unaligned instructions. In this way the call instruction targets the beginning of a function bypassing CFI-call policy. Moreover CFI-heuristics expects the execution flow on a victim application consists of multiple short code fragments as ROP and JOP does. Since no short code is involved in LOP and it is possibile to select long gadget with many instructions on it LOP can also bypass CFI-Heuristics. The process of chaining gadgets exactly follows the normal carrer-callee (call-ret-pairing) paradigm. The loop gadget acts as proxy (dispatcher) invoking different functional gadgets repeatedly which eventuallu return to the original caller bypassing the CFI-ret policy. Meanwhile there is only one jump instruction used by LOP. This jump instruction works originally for loop functionality and it is untouched by LOP. Hence, CFI-jump is also ineffective towards LOP. The following picture shows the difference between CPROP and LOP.<br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://2.bp.blogspot.com/-3Sw8dYh3L40/V2PJJdhU_WI/AAAAAAAAM9Y/4J1g4ZifI-4-spRtBZG7V-nHJGQK9wkNwCLcB/s1600/Screen%2BShot%2B2016-06-17%2Bat%2B11.54.47.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="291" src="https://2.bp.blogspot.com/-3Sw8dYh3L40/V2PJJdhU_WI/AAAAAAAAM9Y/4J1g4ZifI-4-spRtBZG7V-nHJGQK9wkNwCLcB/s400/Screen%2BShot%2B2016-06-17%2Bat%2B11.54.47.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Figure 3. CROP VS LOP (from <a href="https://www.sec.in.tum.de/assets/staff/muntean/Loop-Oriented_Programming_A_New_Code_Reuse_Attack_to_Bypass_Modern0ADefenses.pdf">here</a>)</td></tr></tbody></table><br /><br />It's now interesting defining how a <b>Loop</b> <b>gadget</b> looks like. So, lets define a loop gadget as a complete working function having 3 keys elements such as :<br /><br /><ol><li>A loop statement</li><li>An indirect call instruction within the loop</li><li>An index instruction within the loop statement.</li></ol><div>The following example is taken from initterm() in msvcrt.dll a Microsoft Windows dynamic library.</div><div><br /></div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://4.bp.blogspot.com/-T6gzZlf_3Kc/V2PMxcpb7qI/AAAAAAAAM9k/t_mNZZB0OUURczHmGbQ0BIX0X4A6xJW1ACLcB/s1600/Screen%2BShot%2B2016-06-17%2Bat%2B12.10.42.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="122" src="https://4.bp.blogspot.com/-T6gzZlf_3Kc/V2PMxcpb7qI/AAAAAAAAM9k/t_mNZZB0OUURczHmGbQ0BIX0X4A6xJW1ACLcB/s320/Screen%2BShot%2B2016-06-17%2Bat%2B12.10.42.png" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Figure 4: Example of LOP gadget</td></tr></tbody></table><div><br /></div><br />The LOP gadget make possible to set up starting address and ending address. Then Hijacks the control flow to the loop gadget. Then the LOP gadget makes the index pointer pointing to start to start address of the dispatch "table". It takes the next gadget address and uses an indirect call to invoke the addressed lop gadget. Just after the call it returns to the instruction located right after the indirect call in the loop by a legal ret instruction. Later the gadgets modifies the pointing index making it addressing the next gadget. It ends up by comparing the index value and the "end address".<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://2.bp.blogspot.com/-jCpbl1kGf9A/V2Pok3wqPII/AAAAAAAAM94/cDbBihg2PBIBpGw8_0TyvfgMzCWejUdnQCLcB/s1600/Screen%2BShot%2B2016-06-17%2Bat%2B14.09.25.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="221" src="https://2.bp.blogspot.com/-jCpbl1kGf9A/V2Pok3wqPII/AAAAAAAAM94/cDbBihg2PBIBpGw8_0TyvfgMzCWejUdnQCLcB/s320/Screen%2BShot%2B2016-06-17%2Bat%2B14.09.25.png" width="320" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Figure 5 Comparing attacks strategies the green "check" means the technique can bypass the defence policy, the red "x" means it cannot<br /><div><br /></div></td></tr></tbody></table>We can now add an additional raw on the attack-comparing–table as shown in Figure5 introducing LOP as the ultimate way to bypass Control Flow Integrity Techniques. Happy hunting !<br /><br /></div></div>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=From%20ROP%20to%20LOP%20bypassing%20Control%20FLow%20Enforcement-http%3a%2f%2fmarcoramilli.com%2fpost%2ffrom-rop-to-lop-bypassing-control-flow-enforcement%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2ffrom-rop-to-lop-bypassing-control-flow-enforcement%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffrom-rop-to-lop-bypassing-control-flow-enforcement%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffrom-rop-to-lop-bypassing-control-flow-enforcement%2f&title=From%20ROP%20to%20LOP%20bypassing%20Control%20FLow%20Enforcement" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffrom-rop-to-lop-bypassing-control-flow-enforcement%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffrom-rop-to-lop-bypassing-control-flow-enforcement%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

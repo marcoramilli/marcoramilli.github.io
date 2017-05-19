@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Mass SQL Injection &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Apr 24, 2008</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 200 words 1 min. read
+        </div>
+        <h1>Mass SQL Injection</h1>
+        <section id="post-content" class="article-content post">
+          <p>Yes, it&rsquo;s true. Another Massive SQL injection on the network, performing a Google search results in over 510,000 modified pages.<br />From <a href="http://www.f-secure.com/weblog/archives/00001427.html">F-Secure</a> WeBlog:<br />Check it out directly on <a href="http://www.google.com/search?hl=en&q=allintitle%3Ahttp%3Cscript+src%3D&btnG=Search&meta= ">Google page </a><br /><a href="http://content.screencast.com/media/9ec20f08-ddef-4824-b319-04c4424d92fd_aa65a76c-fff6-4e10-b662-ceba8e05d445_static_0_0_00000061.png"><img src="http://content.screencast.com/media/9ec20f08-ddef-4824-b319-04c4424d92fd_aa65a76c-fff6-4e10-b662-ceba8e05d445_static_0_0_00000061.png" width="678" height="488" border="0" /></a><br />Unless that data is sanitized before it gets saved you can&rsquo;t control what the website will show to the users. This is what SQL injection is all about, exploiting weaknesses in these controls. In this case the injection code starts off like this (note, this is not the complete code):<br /><br /><a href="http://content.screencast.com/media/878bb2bf-7154-4522-8adc-74395141cf54_aa65a76c-fff6-4e10-b662-ceba8e05d445_static_0_0_00000062.png"><img src="http://content.screencast.com/media/878bb2bf-7154-4522-8adc-74395141cf54_aa65a76c-fff6-4e10-b662-ceba8e05d445_static_0_0_00000062.png" width="451" height="186" border="0" /></a><br /><br />Which decoded became:<br /><br /><a href="http://content.screencast.com/media/475f2f00-b541-45fa-b396-528f26974336_aa65a76c-fff6-4e10-b662-ceba8e05d445_static_0_0_00000063.png"><img src="http://content.screencast.com/media/475f2f00-b541-45fa-b396-528f26974336_aa65a76c-fff6-4e10-b662-ceba8e05d445_static_0_0_00000063.png" width="398" height="58" border="0" /></a><br /><br />What happens as a result? It finds all text fields in the database and adds a link to malicious javascript to each and every one of them which will make your website display them automatically. So essentially what happened was that the attackers looked for ASP or ASPX pages containing any type of querystring (a dynamic value such as an article ID, product ID, et cetera) parameter and tried to use that to upload their SQL injection code.<br /><br />That&rsquo;s another big security issue present inside ASP pages, really dangerous:<br /><br />For more details check out <a href="http://www.f-secure.com/weblog/archives/00001427.html">here</a>.</p>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Mass%20SQL%20Injection-http%3a%2f%2fmarcoramilli.com%2fpost%2fmass-sql-injection%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2fmass-sql-injection%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fmass-sql-injection%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2fmass-sql-injection%2f&title=Mass%20SQL%20Injection" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fmass-sql-injection%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fmass-sql-injection%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

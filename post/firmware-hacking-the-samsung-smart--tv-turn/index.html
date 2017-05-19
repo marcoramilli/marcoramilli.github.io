@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Firmware Hacking: The Samsung smart  TV turn &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">May 12, 2013</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 1200 words 6 min. read
+        </div>
+        <h1>Firmware Hacking: The Samsung smart  TV turn</h1>
+        <section id="post-content" class="article-content post">
+          <div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">Tooday I want to share a little experiece I had in reversing <a href="http://www.samsung.com/au/tv/firmware/">Samsung Smat TV's Firmware</a>. I am not going to explain every step in details but I just want to give an idea on how it's possible to perform a reverse engineering process starting from a firmware self-installable.</div><div style="text-align: justify;">Let's assume you receive a request on Saturday asking to reverse T-GAP8DEUC_1028.0.exe, how would you approach it ?</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As normally everybody does, the first step is to find out the firmware you want. Google is the master in finding stuff. Just few clicks and you get what you need.</div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-DLZxmm2prWc/UY3ubEYk3_I/AAAAAAAALRw/-x6rPOl6FNk/s1600/Screen+Shot+2013-05-11+at+9.07.52+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="95" src="http://4.bp.blogspot.com/-DLZxmm2prWc/UY3ubEYk3_I/AAAAAAAALRw/-x6rPOl6FNk/s400/Screen+Shot+2013-05-11+at+9.07.52+AM.png" width="400" /></a></div><br /><div style="text-align: justify;">The file you've just downloaded is a PE executable, as I wrote many previous posts ExeInfoPE or PEiD is your first gate. You want to learn if it has been encrypted, obfuscated or which security procedures has been taken to increase the security bar. ExeinfoPE tells you compression is playing a big role into the executable, so what you need is to discover what kind of compression is placed. There are many ways to discover the compression used algorithm, for example the most easy one is to search for common headers. In this specific scenario, I used Immunity debugger just because I performed more reverse actions over this executable which I am not going to explain in this blog post. As the following image suggests winRAR libraryes have been used.</div><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-_Nnhvi4ntIY/UY33R4ZaXsI/AAAAAAAALSM/fwjOWRb4hPo/s1600/Screen+Shot+2013-05-11+at+9.33.20+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="118" src="http://4.bp.blogspot.com/-_Nnhvi4ntIY/UY33R4ZaXsI/AAAAAAAALSM/fwjOWRb4hPo/s400/Screen+Shot+2013-05-11+at+9.33.20+AM.png" width="400" /></a></div><div style="text-align: justify;">Ok, no specific encryptors have been used over the data section, let's walk through the binary and see if we discover where the RAR archive is placed. <a href="https://code.google.com/p/binwalk/">BinWalk</a> is an amazing tool, it scans any binary looking for know header patterns. Once known header is found it gives you additional information regarding its status. The following image shows the walk of the entire executable threaten as a junk of byte.</div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-SEq5ZXjIcH8/UY35mwKnaeI/AAAAAAAALSY/r690T9UyBas/s1600/Screen+Shot+2013-05-11+at+9.53.17+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="209" src="http://4.bp.blogspot.com/-SEq5ZXjIcH8/UY35mwKnaeI/AAAAAAAALSY/r690T9UyBas/s320/Screen+Shot+2013-05-11+at+9.53.17+AM.png" width="320" /></a></div><div style="text-align: justify;">Here we go ! Right now, we know there are 6 LZMA compressed data junk and a Big RAR archive ! I don't know why, but I feel to try to see what is inside the big RAR archive. So let's extract it !</div><div style="text-align: center;"><i><b><br /></b></i></div><div style="text-align: center;"><i><b>dd if=T-GAP8DEUC_1028.0.exe bs=1 skip=99840 of=T-GAP8DEUC_1028.0.RAR; unrar </b></i><i><b><i><b>T-GAP8DEUC_1028.0.RAR</b></i> </b></i></div><br /><div style="text-align: justify;">What we observe is an entire image folder wrapping severlal big image files and many small binary files.</div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-WT9GQoN4qyo/UY38LGVqu_I/AAAAAAAALSo/ciyu3pYIevw/s1600/Screen+Shot+2013-05-11+at+10.06.07+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="312" src="http://4.bp.blogspot.com/-WT9GQoN4qyo/UY38LGVqu_I/AAAAAAAALSo/ciyu3pYIevw/s320/Screen+Shot+2013-05-11+at+10.06.07+AM.png" width="320" /></a></div><br /><br /><div style="text-align: justify;">rocommon.img, rwcommon.img and emanual.img seems to be the most interesting files to dig in. But before digging into them let's see what is the real version we are reversing.</div><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-PdN6Eeu15HM/UY39F3xKJyI/AAAAAAAALS0/BlITtrwUj8Y/s1600/Screen+Shot+2013-05-09+at+7.31.57+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="27" src="http://2.bp.blogspot.com/-PdN6Eeu15HM/UY39F3xKJyI/AAAAAAAALS0/BlITtrwUj8Y/s400/Screen+Shot+2013-05-09+at+7.31.57+PM.png" width="400" /></a></div><br /><div style="text-align: justify;"><u>And most important, lets take a look to the partition table ;)</u></div><div style="text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-WN1wBmlP0xs/UY391OckBmI/AAAAAAAALTA/V93HhZVljwg/s1600/Screen+Shot+2013-05-11+at+10.12.05+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="150" src="http://4.bp.blogspot.com/-WN1wBmlP0xs/UY391OckBmI/AAAAAAAALTA/V93HhZVljwg/s400/Screen+Shot+2013-05-11+at+10.12.05+AM.png" width="400" /></a></div><br /><br /><div style="text-align: justify;">Super! We have many different images and many different informations we whant to learn from the them, but let's going on our path and maybe comming back later to other partitions. So far, we have 4 different bootloaders, on "bml" devices. We have 2 different kernel images on bml as well, we have an emanual image and 2 common partitions. Let's investigate the biggest partitions first (why the biggest first ? Because, statistically speaking, where there is more data you might find more interesting data !). Lets start by ignoring the emanual partition, actually I don't care about manuals, and the name of that image makes me think I will find only "user manuals" on it. I do like to focalize on the "common" things, common usually means that it's used all around the environment so we'll could find interesting sharing points. rocommon would be our first target since it would be ReadOnly. Maybe common applications are in there ! It's a squash file system, pretty common embedded devices. BackTrack owns a nice unsquashFS script, it's what we need.</div><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-ul290MFjM7U/UY4AeU3RP6I/AAAAAAAALTM/zx1z6iy5tig/s1600/Screen+Shot+2013-05-09+at+7.29.04+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="224" src="http://4.bp.blogspot.com/-ul290MFjM7U/UY4AeU3RP6I/AAAAAAAALTM/zx1z6iy5tig/s320/Screen+Shot+2013-05-09+at+7.29.04+PM.png" width="320" /></a></div><br /><div style="text-align: justify;">Let's open it and see what we have. The following image shows the content of the rocommon image file. "Advertisement" (is Samsung planning to advertise on smat TV apps ? Isn't enough adv on television sof ar ? .. anyway...) , A_Store (Application Store ?)". I think this is what we were looking for !</div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-3b1X61mFXz0/UY4A5DSMM8I/AAAAAAAALTU/r-YBhpt5xXs/s1600/Screen+Shot+2013-05-09+at+7.47.18+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="249" src="http://4.bp.blogspot.com/-3b1X61mFXz0/UY4A5DSMM8I/AAAAAAAALTU/r-YBhpt5xXs/s320/Screen+Shot+2013-05-09+at+7.47.18+PM.png" width="320" /></a></div><br /><div style="text-align: justify;">Ok we have one file system, but each file extension is "cmk", if we try to open any file it's encrypted... this is a classic scenario in which you might end up. But if you remember, Samsung released a development kit in order to develop applcations for smart TV. Well... what if I want to develop applications for smart TV and I don't own a smart TV ? No worries Samsung offers to you a samrt TV emulator ! Cool... the emulator must be able to decrypt smart TV firmware otherwise how it can be run over multiple smart tv firmwares ? Here we go, I am not going to show how I obtained the key to decrypt the firmware (which appened to be:&nbsp; k: <i>B1D5F122E75D757C79F48886D42F8E1A</i> and iv: <i>BFE932F9273DC2A0DFC93F0B8E7AC7C2</i> :) It is another "reverse story". So.. Let's decrypt the firmware ! The following image shows a little script which iterates over all the rocommon folder tree and decrypts each encrypted file.</div><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-MmVpN76PwkM/UY4D3emUYVI/AAAAAAAALTo/u5EcFEv6b7I/s1600/Screen+Shot+2013-05-09+at+10.50.12+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="86" src="http://4.bp.blogspot.com/-MmVpN76PwkM/UY4D3emUYVI/AAAAAAAALTo/u5EcFEv6b7I/s640/Screen+Shot+2013-05-09+at+10.50.12+PM.png" width="640" /></a></div><br />Super cool, now we are free do open each file we want to. We might find out some proprietary code ... (comments are still in Japanese)<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-_Q1a3x0T2_k/UY4EY-EYuII/AAAAAAAALTw/e9J9INeaHDI/s1600/Screen+Shot+2013-05-09+at+11.03.21+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="370" src="http://2.bp.blogspot.com/-_Q1a3x0T2_k/UY4EY-EYuII/AAAAAAAALTw/e9J9INeaHDI/s400/Screen+Shot+2013-05-09+at+11.03.21+PM.png" width="400" /></a></div><br />We might find out some future development scenarios, such as new input parameters ....<br /><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-O3SkcAJwSQQ/UY4EzQ98qRI/AAAAAAAALT4/D9rbLdoqmWU/s1600/Screen+Shot+2013-05-09+at+7.47.51+PM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://2.bp.blogspot.com/-O3SkcAJwSQQ/UY4EzQ98qRI/AAAAAAAALT4/D9rbLdoqmWU/s400/Screen+Shot+2013-05-09+at+7.47.51+PM.png" width="348" /></a></div><br /><br />What else we might find digging into rocommon... Oh, almost forgot, we migh find some<b> Private Keys !</b><br /><b>&nbsp;</b><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-Oevfdx0FB2Q/UY4GEBBph6I/AAAAAAAALUE/3apLC71d9jU/s1600/Screen+Shot+2013-05-11+at+10.47.56+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="272" src="http://1.bp.blogspot.com/-Oevfdx0FB2Q/UY4GEBBph6I/AAAAAAAALUE/3apLC71d9jU/s400/Screen+Shot+2013-05-11+at+10.47.56+AM.png" width="400" /></a></div><br />Do you think to certificats as well ? Ok, I am not going to publish them.. But you might be interested on debugging the frame menu or any default application included in the firmware as well. <br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-Dnguqt-mZUU/UY4HWtFspHI/AAAAAAAALUs/llhUMtgPmcQ/s1600/Screen+Shot+2013-05-11+at+10.53.09+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="320" src="http://4.bp.blogspot.com/-Dnguqt-mZUU/UY4HWtFspHI/AAAAAAAALUs/llhUMtgPmcQ/s320/Screen+Shot+2013-05-11+at+10.53.09+AM.png" width="290" /></a></div><div style="text-align: justify;">As shown in the partition table there are many other images that you want to mount and to dig into. The actual entire firmware is quite a big. Now you have all the infos you need, certs, private keys and tools. Each file named *.sec is a combination of AES and XOR encryption, you will find many forums talking about those files and many python tols have been released to automate the descryption process as well, just keep the one you like ;). Once you decide to dig into the rootfile system you'll not learn really amazing things beside the root account of-course, as shown in the next image.</div><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-Fhn71P5dJLs/UY4S_VJHKUI/AAAAAAAALU8/g4qk6RdKNl8/s1600/Screen+Shot+2013-05-11+at+11.40.48+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="48" src="http://4.bp.blogspot.com/-Fhn71P5dJLs/UY4S_VJHKUI/AAAAAAAALU8/g4qk6RdKNl8/s400/Screen+Shot+2013-05-11+at+11.40.48+AM.png" width="400" /></a></div><br /><div class="separator" style="clear: both; text-align: center;"></div><br />On the other side if you decide to dig into the exe partition you'll find more interesting applications. If you are a vulnerability hunter this is the place where you want to start your job. The following image shows the root folder of the exe image.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-D-oh6Vk7vY4/UY4WyOYLDII/AAAAAAAALVI/kyVZnMSUT30/s1600/Screen+Shot+2013-05-11+at+11.55.43+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="48" src="http://4.bp.blogspot.com/-D-oh6Vk7vY4/UY4WyOYLDII/AAAAAAAALVI/kyVZnMSUT30/s400/Screen+Shot+2013-05-11+at+11.55.43+AM.png" width="400" /></a></div><br /><div style="text-align: justify;">Summing up, in this post I decided to show a full reverse engineering path, starting from a self-executable PE file to real informations such as: root acount, certificates, proprietary code, used applications, private RSA keys and so on. Not all the required steps have been covered, this is not an hacking manual is more like a "this is the way to follow". Hope you might enjoy it.</div><br /><br /><br /></div>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Firmware%20Hacking%3a%20The%20Samsung%20smart%20%20TV%20turn-http%3a%2f%2fmarcoramilli.com%2fpost%2ffirmware-hacking-the-samsung-smart--tv-turn%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2ffirmware-hacking-the-samsung-smart--tv-turn%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffirmware-hacking-the-samsung-smart--tv-turn%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffirmware-hacking-the-samsung-smart--tv-turn%2f&title=Firmware%20Hacking%3a%20The%20Samsung%20smart%20%20TV%20turn" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffirmware-hacking-the-samsung-smart--tv-turn%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffirmware-hacking-the-samsung-smart--tv-turn%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

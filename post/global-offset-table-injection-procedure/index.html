@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Global Offset Table Injection Procedure &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Nov 4, 2011</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 500 words 3 min. read
+        </div>
+        <h1>Global Offset Table Injection Procedure</h1>
+        <section id="post-content" class="article-content post">
+          <div dir="ltr" style="text-align: left;" trbidi="on">Have you ever thought about how a program can call external functions ? Lets say we have a classic printf() which is imported from "libc" how does the program know where exactly printf() is located into the memory ? Well the answer in the Global Offset Table. The following sketch sows how the calls between external function work:<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-qKK-dqYYuFE/TrOjdg16kbI/AAAAAAAAK08/OISQqL6Z8H8/s1600/Screen+Shot+2011-11-04+at+9.32.17+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="95" src="http://4.bp.blogspot.com/-qKK-dqYYuFE/TrOjdg16kbI/AAAAAAAAK08/OISQqL6Z8H8/s320/Screen+Shot+2011-11-04+at+9.32.17+AM.png" width="320" /></a></div><div class="separator" style="clear: both; text-align: center;"><br /></div><div class="separator" style="clear: both; text-align: justify;">In other words the Global Offset Table redirects a position independent address calculations to an absolute location and is located in the .got section of an ELF executable or shared object. It stores the final (absolute) location of a function calls symbol, used in dynamically linked code. When a program requests to use printf() for instance, after the rtld locates the symbol, the location is then relocated in the GOT and allows for the executable via the Procedure Linkage Table, to directly access the symbols location. For a complete resource about ELF and its sections I suggest to take a look <a href="http://www.acsu.buffalo.edu/~charngda/elf.html">here</a>, you want find many useful references such as: blog posts, articles, &nbsp;books and papers. But this post is not about describing ELF, GOT or PLT it's about describing a procedure to redirect control flow by injection code into the GOT table.</div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">Lets assume to have the following function (click on the image to make it bigger) in a give program. The program copies one input parameter to a support buffer following a given offset. The execution string looks like: program.o 4 30 AAAA. Basically 4 is the number of bytes to be copied into the destination buffer (size [256]) 30 is the offset from the beginning of the destination buffer and AAAA &nbsp;is the data to copy on it.</div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-aybvkTVHGRQ/TrOmGWtKLtI/AAAAAAAAK1E/RtlRStjyffI/s1600/Screen+Shot+2011-11-04+at+9.43.10+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="175" src="http://1.bp.blogspot.com/-aybvkTVHGRQ/TrOmGWtKLtI/AAAAAAAAK1E/RtlRStjyffI/s400/Screen+Shot+2011-11-04+at+9.43.10+AM.png" width="400" /></a></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">The external function that we want to follow is the "puts()" function. The &nbsp;GOT table will be "filled" dynamically during the execution so lets see what happens by running the system. Breaking on main():</div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-_1Bxn352IUY/TrOnPRXaHpI/AAAAAAAAK1M/w7HEADjiWPc/s1600/Screen+Shot+2011-11-04+at+9.49.33+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="108" src="http://1.bp.blogspot.com/-_1Bxn352IUY/TrOnPRXaHpI/AAAAAAAAK1M/w7HEADjiWPc/s400/Screen+Shot+2011-11-04+at+9.49.33+AM.png" width="400" /></a></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">Disassembly the "main()".</div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-A1-wzk9Hiuw/TrOn4BmOmjI/AAAAAAAAK1U/zP3Hq-uSpK0/s1600/Screen+Shot+2011-11-04+at+9.51.23+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="400" src="http://1.bp.blogspot.com/-A1-wzk9Hiuw/TrOn4BmOmjI/AAAAAAAAK1U/zP3Hq-uSpK0/s400/Screen+Shot+2011-11-04+at+9.51.23+AM.png" width="400" /></a></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">The puts() function is reached by the "callq &nbsp;0x100000e8a <dyld_stub___strncpy_chk>". &nbsp;Following&nbsp;0x100000e8a address we see&nbsp;the PLT pointing to the GOT table. Lets see the dynamic pointer *0x1b2(%rip) . PLT table is on 100000ea8.</dyld_stub___strncpy_chk></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-kwcpRoxEwBI/TrOpnsusk3I/AAAAAAAAK1c/7uLl5YBDTlU/s1600/Screen+Shot+2011-11-04+at+9.54.18+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="33" src="http://1.bp.blogspot.com/-kwcpRoxEwBI/TrOpnsusk3I/AAAAAAAAK1c/7uLl5YBDTlU/s400/Screen+Shot+2011-11-04+at+9.54.18+AM.png" width="400" /></a></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">The program itself prints out to the buffer address in which the data should be copied. (0x66f37a60). A little bit of hexadecimal math: just remember we got the memory address in which we want to inject our data (AAAA) placed into 0x100000e8a and we have the buffer address in&nbsp;0x66f37a60. And here we go ! &nbsp;A nice and easy segmentation fault ;D !!</div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://1.bp.blogspot.com/-fe0AOQZ3dPo/TrOvR_xMQbI/AAAAAAAAK1k/2zWu6Gg-s8g/s1600/Screen+Shot+2011-11-04+at+10.22.28+AM.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="41" src="http://1.bp.blogspot.com/-fe0AOQZ3dPo/TrOvR_xMQbI/AAAAAAAAK1k/2zWu6Gg-s8g/s400/Screen+Shot+2011-11-04+at+10.22.28+AM.png" width="400" /></a></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;">This post shows a quick'n dirty procedure on how attackers could manipulate programs control flows by injecting address/code into the GOT table. Don't take it as a tutorial or a guide but as simple and fast way to sum up the entire procedure.&nbsp;</div><div class="separator" style="clear: both; text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: justify;"><br /></div></div>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Global%20Offset%20Table%20Injection%20Procedure-http%3a%2f%2fmarcoramilli.com%2fpost%2fglobal-offset-table-injection-procedure%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2fglobal-offset-table-injection-procedure%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fglobal-offset-table-injection-procedure%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2fglobal-offset-table-injection-procedure%2f&title=Global%20Offset%20Table%20Injection%20Procedure" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fglobal-offset-table-injection-procedure%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fglobal-offset-table-injection-procedure%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

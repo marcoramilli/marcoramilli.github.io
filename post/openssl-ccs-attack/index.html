@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> OpenSSL CCS Attack  &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Jul 1, 2014</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 400 words 2 min. read
+        </div>
+        <h1>OpenSSL CCS Attack </h1>
+        <section id="post-content" class="article-content post">
+          <div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">As you might see from my posts frequency, last months have been pretty busy to me. My hacking team and I are working really hard and we are achieving incredibly results which makes me happy but really busy as well. OpenSSL CCS Attack (<a href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0224">CVE-2014-0224</a>) is almost one month old and not super interesting to be exploited so far, but since we got a great experience on that specific vulnerability I decided to "fix-it" on my memories in the following way.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">CVE-2014-0224 bug exists since the very first OpenSSL release and this makes (at least to me) the whole story very fascinating. The issue basically happens because OpenSSL inappropriately accepts the ChangeCipherSpec (CCS) during a handshake. The following picture shows the correct way to implement a full protocol handshake.</div><div class="separator" style="clear: both; text-align: center;"><a href="http://3.bp.blogspot.com/-rapk5Ss3GIo/U7LthTDzhqI/AAAAAAAALyc/iz9oKsPMVjo/s1600/Screen+Shot+2014-07-01+at+19.16.45.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://3.bp.blogspot.com/-rapk5Ss3GIo/U7LthTDzhqI/AAAAAAAALyc/iz9oKsPMVjo/s1600/Screen+Shot+2014-07-01+at+19.16.45.png" height="400" width="161" /></a></div><br /><div style="text-align: justify;">The bug finds its own start if If a <b>ChangeCipherSpec</b> message is injected after the <b>ServerHello</b> but before the master secret has been generated&nbsp; (<b>ClientKeyExchange</b>). At this point <b>ssl3_do_change_cipher_spec</b> generates the keys pair and the expected <b>Finished</b> hash for the handshake with an <span style="color: blue;">empty master secret</span> (implementation bug). Moreover, the keys pair will be latched because further ChangeCipherSpec messages regenerate the expected Finished hash, but not new keys anymore. The following image shows the injection time frame.</div><div style="text-align: justify;"><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="http://4.bp.blogspot.com/-9jfqfwyJz-w/U7LxJ8wSCxI/AAAAAAAALyo/Ceg1UAHNDfA/s1600/Screen+Shot+2014-07-01+at+19.34.08.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="http://4.bp.blogspot.com/-9jfqfwyJz-w/U7LxJ8wSCxI/AAAAAAAALyo/Ceg1UAHNDfA/s1600/Screen+Shot+2014-07-01+at+19.34.08.png" height="400" width="215" /></a></div><div style="text-align: justify;"><br /></div><br />The buggy code is the following one (the red numbers follow the above description):<br /><br /><pre style="font-family: monospace; white-space: pre-wrap;"><span style="color: seagreen; font-weight: bold;">int</span> ssl3_do_change_cipher_spec(SSL *s)<br /> {<br /> <span style="color: seagreen; font-weight: bold;">int</span> i;<br /> <span style="color: seagreen; font-weight: bold;">const</span> <span style="color: seagreen; font-weight: bold;">char</span> *sender;<br /> <span style="color: seagreen; font-weight: bold;">int</span> slen;<br /><br /> <span style="color: brown; font-weight: bold;">if</span> (s-&gt;state &amp; SSL_ST_ACCEPT)<br />  i=SSL3_CHANGE_CIPHER_SERVER_READ;<br /> <span style="color: brown; font-weight: bold;">else</span><br />  i=SSL3_CHANGE_CIPHER_CLIENT_READ;<br /><br /> <span style="color: brown; font-weight: bold;">if</span> (s-&gt;s3-&gt;tmp.key_block == <span style="color: magenta;">NULL</span>)<span style="background-color: red; border-radius: 20px; color: white; margin-left: 4em; padding: 0.25em;">1</span><br />  {<br />  <span style="color: brown; font-weight: bold;">if</span> (s-&gt;session == <span style="color: magenta;">NULL</span>)<br />   {<br />   <span style="color: #5555bb;">/*</span><span style="color: #5555bb;"> might happen if dtls1_read_bytes() calls this </span><span style="color: #5555bb;">*/</span><br />         SSLerr(SSL_F_SSL3_DO_CHANGE_CIPHER_SPEC,SSL_R_CCS_RECEIVED_EARLY);<br />   <span style="color: brown; font-weight: bold;">return</span> (<span style="color: magenta;">0</span>);<br />   }<br /><br />  s-&gt;session-&gt;cipher=s-&gt;s3-&gt;tmp.new_cipher;<br />  <span style="color: brown; font-weight: bold;">if</span> (!s-&gt;method-&gt;ssl3_enc-&gt;setup_key_block(s)) <span style="color: brown; font-weight: bold;">return</span>(<span style="color: magenta;">0</span>); <span style="background-color: red; border-radius: 20px; color: white; margin-left: 4em; padding: 0.25em;">2</span><br />  }<br /><br /> <span style="color: brown; font-weight: bold;">if</span> (!s-&gt;method-&gt;ssl3_enc-&gt;change_cipher_state(s,i))<br />  <span style="color: brown; font-weight: bold;">return</span>(<span style="color: magenta;">0</span>);<br /><br /> <span style="color: #5555bb;">/*</span><span style="color: #5555bb;"> we have to record the message digest at</span><br /><span style="color: #5555bb;">  * this point so we can get it before we read</span><br /><span style="color: #5555bb;">  * the finished message </span><span style="color: #5555bb;">*/</span><br /> <span style="color: brown; font-weight: bold;">if</span> (s-&gt;state &amp; SSL_ST_CONNECT)<br />  {<br />  sender=s-&gt;method-&gt;ssl3_enc-&gt;server_finished_label;<br />  slen=s-&gt;method-&gt;ssl3_enc-&gt;server_finished_label_len;<br />  }<br /> <span style="color: brown; font-weight: bold;">else</span><br />  {<br />  sender=s-&gt;method-&gt;ssl3_enc-&gt;client_finished_label;<br />  slen=s-&gt;method-&gt;ssl3_enc-&gt;client_finished_label_len;<br />  }<br /><br /> i = s-&gt;method-&gt;ssl3_enc-&gt;final_finish_mac(s,<br />  sender,slen,s-&gt;s3-&gt;tmp.peer_finish_md); <span style="background-color: red; border-radius: 20px; color: white; margin-left: 4em; padding: 0.25em;">3</span><br /> <span style="color: brown; font-weight: bold;">if</span> (i == <span style="color: magenta;">0</span>)<br />  {<br />  SSLerr(SSL_F_SSL3_DO_CHANGE_CIPHER_SPEC, ERR_R_INTERNAL_ERROR);<br />  <span style="color: brown; font-weight: bold;">return</span> <span style="color: magenta;">0</span>;<br />  }<br /> s-&gt;s3-&gt;tmp.peer_finish_md_len = i;<br /><br /> <span style="color: brown; font-weight: bold;">return</span>(<span style="color: magenta;">1</span>);<br /> }<br /></pre><br />Fortunately a patch is available <a href="https://www.imperialviolet.org/binary/earlyccs_tls.patch" target="_blank">here</a> and a simple go tool to check the bug presence is <a href="https://www.imperialviolet.org/binary/earlyccs_check.go" target="_blank">here</a>. For having more detailed infos, please visit (this <a href="https://www.imperialviolet.org/2014/06/05/earlyccs.html" target="_blank">post</a>, and the <a href="http://ccsinjection.lepidum.co.jp/blog/2014-06-05/CCS-Injection-en/index.html" target="_blank">original post</a>).</div>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=OpenSSL%20CCS%20Attack%20-http%3a%2f%2fmarcoramilli.com%2fpost%2fopenssl-ccs-attack%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2fopenssl-ccs-attack%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fopenssl-ccs-attack%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2fopenssl-ccs-attack%2f&title=OpenSSL%20CCS%20Attack%20" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fopenssl-ccs-attack%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fopenssl-ccs-attack%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

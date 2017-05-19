@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Process Hollowing &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">May 29, 2016</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 700 words 4 min. read
+        </div>
+        <h1>Process Hollowing</h1>
+        <section id="post-content" class="article-content post">
+          <div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">Back in 2011 blogs (<a href="https://code.google.com/archive/p/process-hollowing/downloads">here</a>, <a href="http://www.rohitab.com/discuss/topic/40262-dynamic-forking-process-hollowing/">here</a>,&nbsp;<a href="https://www.trustwave.com/Resources/SpiderLabs-Blog/Analyzing-Malware-Hollow-Processes/">here</a>) and papers (<a href="http://www.autosectools.com/process-hollowing.pdf">here</a>, <a href="http://www.amazon.com/Malware-Analysts-Cookbook-DVD-Techniques/dp/0470613033">here</a>, <a href="http://eprints.qut.edu.au/64181/1/Andrew_White_Thesis.pdf">here</a>, <a href="http://dl.acm.org/citation.cfm?id=2664252">here</a>)&nbsp;described a widely used Malware technique to hide malicious actions called: <b>Process</b> <b>Hollowing</b>. Nowadays we are experiencing some "flashbacks" to this delightful technique, so I decided to write a little bit about it, just in case someone needs a "refresh".</div><div style="text-align: justify;"><br /></div><blockquote class="tr_bq"><div style="text-align: justify;">Process hollowing is a technique used by some malware in which a legitimate process is loaded on the system solely to act as a container for hostile code. At launch, the legitimate code is deallocated and replaced with malicious code.</div></blockquote><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-ikDW5s8IWVM/VzivgpsYZAI/AAAAAAAAM1o/mnBv45UKY8ctVS3uOn9ZHtjtH67AhaC4gCLcB/s1600/Screen%2BShot%2B2016-05-15%2Bat%2B19.18.03.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="320" src="https://1.bp.blogspot.com/-ikDW5s8IWVM/VzivgpsYZAI/AAAAAAAAM1o/mnBv45UKY8ctVS3uOn9ZHtjtH67AhaC4gCLcB/s320/Screen%2BShot%2B2016-05-15%2Bat%2B19.18.03.png" width="262" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Process Hollowing (from <a href="http://www.autosectools.com/process-hollowing.pdf">here</a>)</td></tr></tbody></table><div style="text-align: justify;">The beauty of this technique is in the help given to malicious process to be hidden between conventional processes. But let's walk a little bit on the technique:</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><b>Step1.</b></div><div style="text-align: justify;">The Malware starts a legitimate process by using the <b>CreateProcecess</b>&nbsp;within <b>CREATE_SUSPENDED</b> flag enabled in the <b>fdwCreate</b>.</div><div style="text-align: justify;"><br /></div><div style="background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 15px; padding-left: 30px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;"><br class="Apple-interchange-newline" /></span><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">// This function is used to run a new program. It creates a new process // and its primary thread. The new process runs the specified executable // file.</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">BOOL CreateProcess(</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">LPCWSTR pszImageName,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">LPCWSTR pszCmdLine,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">LPSECURITY_ATTRIBUTES psaProcess,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">LPSECURITY_ATTRIBUTES psaThread,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">BOOL fInheritHandles,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">DWORD fdwCreate,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">LPVOID pvEnvironment,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">LPWSTR pszCurDir,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">LPSTARTUPINFOW psiStartInfo,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">LPPROCESS_INFORMATION pProcInfo</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;">);</span></div><div style="background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 15px; padding-left: 30px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt; line-height: normal;"><span style="box-sizing: border-box; font-size: 10pt;">// fdwCreate</span><br style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px;" /><span style="box-sizing: border-box; font-size: 10pt;">// [in] Specifies additional flags that control the priority<br style="box-sizing: border-box;" />// and the creation of the process.</span><br style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px;" /><span style="box-sizing: border-box; font-size: 10pt;">//</span><br style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px;" /><span style="box-sizing: border-box; font-size: 10pt;">// CREATE_SUSPENDED fdwCreate flag</span><br style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px;" /><span style="box-sizing: border-box; font-size: 10pt;">// The primary thread of the new process is created in a suspended state,<br style="box-sizing: border-box;" />// and does not run until the ResumeThread function is called.</span></span></div><b>Step2.</b><br />The process has been created and it's in suspended state. Now it's time to hollow the legitimate code from memory in the hosted process. We might use the following API (<b>ZwUnmapViewOfSection</b>).<br /><br /><div style="background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 15px; padding-left: 30px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">// NtUnmapViewOfSection and ZwUnmapViewOfSection are two versions of<br style="box-sizing: border-box;" />// the same Windows Native System Services routine.</span><br /><br style="box-sizing: border-box;" /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">// The ZwUnmapViewOfSection routine unmaps a view of a section from<br style="box-sizing: border-box;" />// the virtual address space of a subject process.</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">// a view can be a whole or partial mapping of a section object in&nbsp;<br style="box-sizing: border-box;" />// the virtual address space of a process.</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;"><br /></span></div><div style="background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 15px; padding-left: 30px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">NTSTATUS ZwUnmapViewOfSection(</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in HANDLE ProcessHandle,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in_opt PVOID BaseAddress</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">);</span></div><div><br /></div><div style="text-align: justify;"><b>Step3. </b></div><div style="text-align: justify;">The Malware then allocates &nbsp;memory for the new code by classically using <b>VirtualAllocEx. </b>The Malware should ensure the code is marked as <b>writable </b>and <b>executable </b>(by using flProtect).</div><br /><div style="-webkit-text-stroke-width: 0px; color: black; font-family: Times; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px;"></div><br /><div style="-webkit-text-stroke-width: 0px; background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; margin-bottom: 15px; orphans: auto; padding-left: 30px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px;"><div style="margin: 0px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;"><br class="Apple-interchange-newline" /></span></div><div style="color: black; font-family: Times; font-size: medium; line-height: normal;"><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">// Reserves or commits a region of memory within the virtual address&nbsp;<br style="box-sizing: border-box;" />// space of a specified process.</span><br /><br style="box-sizing: border-box; color: #555555; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px;" /><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">LPVOID WINAPI VirtualAllocEx(</span><br /><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in HANDLE hProcess,</span><br /><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in_opt LPVOID lpAddress,</span><br /><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in SIZE_T dwSize,</span><br /><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in DWORD flAllocationType,</span><br /><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in DWORD flProtect</span><br /><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">);</span><br /><br style="box-sizing: border-box; color: #555555; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px; line-height: 20px;" /><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">// Memory Protection Constant PAGE_EXECUTE_READWRITE = 0x40</span><br /><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">// Enables execute, read-only, or read/write access to the committed&nbsp;<br style="box-sizing: border-box;" />// region of pages.</span></div><div><span style="box-sizing: border-box; color: #555555; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;"><br /></span></div></div><b>Step4.</b><br /><div style="text-align: justify;">Now it's time to write the malicious code into the hollow host process using the romantic <b>WriteProcessMemory</b>.</div><br /><div style="-webkit-text-stroke-width: 0px; background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; margin-bottom: 15px; orphans: auto; padding-left: 30px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px;"></div><br /><div style="-webkit-text-stroke-width: 0px; background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 20px; margin-bottom: 15px; orphans: auto; padding-left: 30px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px;"><div style="margin: 0px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">// Writes data to an area of memory in a specified process. The entire&nbsp;<br style="box-sizing: border-box;" />// area to be written to must be accessible or the operation fails.</span><br /><br style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;" /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">BOOL WriteProcessMemory(</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">HANDLE hProcess,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">LPVOID lpBaseAddress,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">LPVOID lpBuffer,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">DWORD nSize,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">LPDWORD lpNumberOfBytesWritten</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">);</span></div><div style="margin: 0px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;"><br /></span></div></div><br /><b>Step5.</b><br />in order to camouflage the Malware, the author should re-set the normal pagination schema by setting Read/Execute protections like any other normal process by using <b>VirtualProtectEx</b>.<br /><div style="background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 15px; padding-left: 30px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">// Changes the protection on a region of committed pages in the virtual&nbsp;<br style="box-sizing: border-box;" />// address space of a specified process.</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">BOOL WINAPI VirtualProtectEx(</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in HANDLE hProcess,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in LPVOID lpAddress,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in SIZE_T dwSize,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in DWORD flNewProtect,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__out PDWORD lpflOldProtect</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">);</span><br /><div style="text-align: justify;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;"><br /></span></div></div><div style="text-align: justify;">It should also set the remote context to point to the new code section. The <b>SetThreatContext </b>API has been used to reach the scope!</div><br /><div style="background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 15px; padding-left: 30px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">// Sets the context for the specified thread.</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">BOOL WINAPI SetThreadContext(</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in HANDLE hThread,</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">__in const CONTEXT *lpContext</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;">);</span><br /><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;"><br /></span></div><b><br /></b><b>Step6.</b><br />It's time to resume the suspended thread (<b>ResumeThread</b>) and "game over" !<br /><br /><div style="background-color: #eeeeee; box-sizing: border-box; color: #555555; font-family: 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif; font-size: 14px; line-height: 20px; margin-bottom: 15px; padding-left: 30px;"><span style="box-sizing: border-box; font-family: &quot;courier new&quot; , &quot;courier&quot;; font-size: 10pt;"><span style="box-sizing: border-box; font-size: 10pt;">// Decrements a thread's suspend count. When the suspend count is&nbsp;<br style="box-sizing: border-box;" />// decremented to zero, the execution of the thread is resumed.</span><br style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px;" /><span style="box-sizing: border-box; font-size: 10pt;">DWORD WINAPI ResumeThread(</span><br style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px;" /><span style="box-sizing: border-box; font-size: 10pt;">__in HANDLE hThread</span><br style="box-sizing: border-box; font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 14px;" /><span style="box-sizing: border-box; font-size: 10pt;">);</span></span></div><br />We've just fired up a brand new (and potentially malicious) process!<br /><br />Focusing on detection, it is going to be hard if using static signatures (such as AntiVirus romantic signatures) but having the possibility to dynamically analyse system calls (such as a sandboxed environment) the detection rate will increase drastically.</div>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Process%20Hollowing-http%3a%2f%2fmarcoramilli.com%2fpost%2fprocess-hollowing%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2fprocess-hollowing%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fprocess-hollowing%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2fprocess-hollowing%2f&title=Process%20Hollowing" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fprocess-hollowing%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fprocess-hollowing%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

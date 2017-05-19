@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> ShadowBrokers Leak: A Machine Learning Approach &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Apr 29, 2017</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 900 words 4 min. read
+        </div>
+        <h1>ShadowBrokers Leak: A Machine Learning Approach</h1>
+        <section id="post-content" class="article-content post">
+          <div dir="ltr" style="text-align: left;" trbidi="on"><div style="text-align: justify;">During the past few weeks I read a lot of great papers, blog posts and full magazine articles on the ShadowBrokers Leak (free public repositories: <a href="https://github.com/misterch0c/shadowbroker" target="_blank">here</a> and <a href="https://github.com/adamcaudill/EquationGroupLeak" target="_blank">here</a>) released by WikiLeaks <a href="https://wikileaks.org/ciav7p1/" target="_blank">Vault7</a>. &nbsp;Many of them described the amazing power of such a tools (by the way they are currently used by hackers to exploit systems without <a href="https://technet.microsoft.com/en-us/library/security/ms17-010.aspx" target="_blank">MS17-010</a> patch) other made a great reverse engineering adventures on some of the most used payloads and other again described what is going to happen in the next feature.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">So you probably are wandering why am I writing on this discussed topic again? Well, I did not find anyone who decided to extract features on such tools in order to correlate them with notorious payloads and malware. According to my previous blog post &nbsp;<a href="https://marcoramilli.blogspot.it/2016/12/malware-training-sets-machine-learning.html" target="_blank">Malware Training Sets: A machine learning dataset for everyone</a>&nbsp;I decided to "refill" my <a href="https://github.com/marcoramilli/MalwareTrainingSets" target="_blank">public gitHub</a> repository with more analyses on that topic.</div><div style="text-align: justify;"><br /></div><div style="text-align: justify;">If you are not familiar with this leak you probably want to know that Equation Group's (attributed to NSA) built FuzzBunch software, an exploitation framework similar to Metasploit. The framework uses several remote exploits for Windows such as: EternalBlue, EternalRomance, Eternal Synergy, etc.. which calls external payloads as well, one of the most famous - as today- is DoublePulsar mainly used in SMB and RDP exploits. The system works straight forward by performing the following steps:&nbsp;</div><div style="text-align: justify;"></div><div class="separator" style="clear: both; text-align: center;"><br /></div><ul><li>STEP1:<b style="font-weight: bold;"> Eternalblue</b>&nbsp;launching platform with configuration file (xml in the image) and target ip.</li></ul><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-Sf6fKQ-RzQc/WP-QSp5XULI/AAAAAAAAOCI/_W3AR321xyYFx3b-X0BwTdq3A88KkehpACEw/s1600/Schermata%2B2017-04-25%2Balle%2B20.06.41.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="218" src="https://3.bp.blogspot.com/-Sf6fKQ-RzQc/WP-QSp5XULI/AAAAAAAAOCI/_W3AR321xyYFx3b-X0BwTdq3A88KkehpACEw/s400/Schermata%2B2017-04-25%2Balle%2B20.06.41.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Eternalblue working</td></tr></tbody></table><div style="text-align: justify;"><br /></div><div style="text-align: justify;"></div><ul><li style="text-align: justify;">STEP2:<b> DoublePulsar</b> and additional payloads. Once the Eternablue successfully exploited Windows (in my case it was a Windows 7 SP1) it installs DoublePulsar which could be used as a professional PenTester would use Meterpreter/Empire/Beacon backdoors. &nbsp;</li></ul><div><br /></div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-02lAEX42Fhc/WP-R_g2Tc-I/AAAAAAAAOCU/xOERi-9hQ3UBtobGEHhh4M5njoyh79oTQCLcB/s1600/Schermata%2B2017-04-25%2Balle%2B20.13.39.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="400" src="https://3.bp.blogspot.com/-02lAEX42Fhc/WP-R_g2Tc-I/AAAAAAAAOCU/xOERi-9hQ3UBtobGEHhh4M5njoyh79oTQCLcB/s400/Schermata%2B2017-04-25%2Balle%2B20.13.39.png" width="311" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">DoublePulsar usage</td></tr></tbody></table><div><ul><li style="text-align: justify;">STEP3: <b>DanderSpritz</b>. A Command and Control Manager to manage multiple implants. It could acts as a C&amp;C Listener or it might be used to directly connect to targets as well.</li></ul></div><div><br /></div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-WjZWMfF59l8/WP-Stx1rFuI/AAAAAAAAOCc/V4UQRIh5cPYHJvEWNggvq-2hxQ37nD7GACLcB/s1600/Schermata%2B2017-04-22%2Balle%2B08.47.59.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="253" src="https://1.bp.blogspot.com/-WjZWMfF59l8/WP-Stx1rFuI/AAAAAAAAOCc/V4UQRIh5cPYHJvEWNggvq-2hxQ37nD7GACLcB/s400/Schermata%2B2017-04-22%2Balle%2B08.47.59.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">DanderSpritz</td></tr></tbody></table><div><br /></div><div><br /></div><div style="text-align: justify;">Following the same process described <a href="https://marcoramilli.blogspot.it/2016/12/malware-training-sets-machine-learning.html" target="_blank">here</a>&nbsp;(and described in the following image) I generated features file for each of the aforementioned Equation Group tools. The process involved files detonation into multiple sandboxes performing both: dynamic analysis and static analysis as well. The analyses results get translated into MIST format and later saved into json files for convenience.</div><div><br /></div><div class="separator" style="clear: both; text-align: center;"><a href="https://1.bp.blogspot.com/-DLpD8-toGrE/WE2CDN07T8I/AAAAAAAANj8/NftQ1JkEmdEixVpL4OiqUj5XjMSS_o4kQCPcB/s1600/Screen%2BShot%2B2016-12-11%2Bat%2B17.42.32.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="265" src="https://1.bp.blogspot.com/-DLpD8-toGrE/WE2CDN07T8I/AAAAAAAANj8/NftQ1JkEmdEixVpL4OiqUj5XjMSS_o4kQCPcB/s320/Screen%2BShot%2B2016-12-11%2Bat%2B17.42.32.png" width="320" /></a></div><div><br /></div><div style="text-align: justify;">In order to compare previous generated results (aka notorious Malware available <a href="https://github.com/marcoramilli/MalwareTrainingSets" target="_blank">here</a>) to the last leak by figuring out if Equation Group is also imputable to have built known Malware (included into the <a href="https://github.com/marcoramilli/MalwareTrainingSets" target="_blank">repository</a>), you might decide to use one of the several Machine Learning frameworks available out there. <a href="http://www.cs.waikato.ac.nz/ml/weka/" target="_blank">WEKA</a> (developed by University of Waikato) is a romantic Data Mining tool which implements several algorithms and compare them together in order to find the best fit to the data set. Since I am looking for the "best" algorithm to apply production Machine Learning to such dataset I decided to go with &nbsp;<a href="http://www.cs.waikato.ac.nz/ml/weka/" target="_blank">WEKA</a>.&nbsp;It implements several algorithms "ready to go" and it performs auto performance analyses in oder to figure out what algorithm is "best in my case". However WEKA needs a specific format which happens to be called ARFF (described <a href="http://www.cs.waikato.ac.nz/ml/weka/arff.html" target="_blank">here</a>). I do have a JSON representation of MIST file. I've tried several time to import my MIST JSON file into WEKA but with no luck. So I decided to write a quick and dirty conversion tool really *not performant* and really *not usable in production environment* which converts MIST (JSONized) format into ARFF format. The following script does this job assuming the MIST JSONized content loaded into a mongodb server. NOTE: the script is ugly and written just to make it works, no input controls, no variable controls, a very quick naive and trivial o(m*n^2) loop is implemented.&nbsp;</div><div style="text-align: justify;"><br /></div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://2.bp.blogspot.com/-QEl2lZ68AAo/WP-pkeBnTMI/AAAAAAAAOCs/pnm4_kEnrcwIzKbE2X17oxCDc-ybs7WIACLcB/s1600/Schermata%2B2017-04-25%2Balle%2B21.53.36.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="640" src="https://2.bp.blogspot.com/-QEl2lZ68AAo/WP-pkeBnTMI/AAAAAAAAOCs/pnm4_kEnrcwIzKbE2X17oxCDc-ybs7WIACLcB/s640/Schermata%2B2017-04-25%2Balle%2B21.53.36.png" width="324" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">From MIST to ARFF</td></tr></tbody></table><div style="text-align: justify;"><br /></div><div style="text-align: justify;">The resulting file MK.arff is a 1.2GB of pure text ready to be analyzed through WEKA or any other Machine Learning tools using the standard ARFF file format. The script is going available <a href="https://github.com/marcoramilli/MalwareTrainingSets" target="_blank">here</a>. I am not going to comment nor to describe the results sets, since I wont to reach "governative dangerous conclusions" in my public blog. If you read that blog post to here you should have all the processes, the right data and the desired tools to be able to perform analyses by your own. Following some short inconclusive results with no associated comments.</div><div><br /></div><div>TEST 1:</div><div><b>Algorithm</b>: Simple K-Mins</div><div><b>Number of clusters</b>: 95 (We know it, since the data is classified)</div><div><b>Seed</b>: 18 (just random choice)</div><div><b>Distance Function</b>: EuclideanDistance, Normalized and Not inverted.</div><div><br /></div><div>RESULTS (square errors: 5.00):</div><div><br /></div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://3.bp.blogspot.com/-_nO6y_ypgDg/WP-2QIi2eRI/AAAAAAAAOC8/7SdQezxlGUIa2H2QITEIs-hpgd-OFr1cwCLcB/s1600/Schermata%2B2017-04-25%2Balle%2B22.46.40.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="178" src="https://3.bp.blogspot.com/-_nO6y_ypgDg/WP-2QIi2eRI/AAAAAAAAOC8/7SdQezxlGUIa2H2QITEIs-hpgd-OFr1cwCLcB/s400/Schermata%2B2017-04-25%2Balle%2B22.46.40.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">K-Mins Results</td></tr></tbody></table><div><br /></div><div>TEST 2 :</div><div><b>Algorithm</b>: Expectation Maximisation</div><div><b>Number of clusters</b>: to be discovered</div><div><b>Seed</b>: 0</div><div><br /></div><div>RESULTS (few significant clusters detected):</div><div><br /></div><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-CwT6ws1hXig/WQAzJihD_-I/AAAAAAAAODQ/fn3ZGGaiHz4a8XxgQO-fyja1FTOxtHofgCLcB/s1600/Schermata%2B2017-04-26%2Balle%2B07.32.41.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="320" src="https://1.bp.blogspot.com/-CwT6ws1hXig/WQAzJihD_-I/AAAAAAAAODQ/fn3ZGGaiHz4a8XxgQO-fyja1FTOxtHofgCLcB/s320/Schermata%2B2017-04-26%2Balle%2B07.32.41.png" width="293" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Extracted Classes</td></tr></tbody></table><div><div>TEST 3 :</div><div><b>Algorithm</b>: CobWeb</div><div><b>Number of clusters</b>: to be discovered</div><div><b>Seed</b>: 42</div><br />RESULTS: (again few significative cluster were found)<br /><br /><table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"><tbody><tr><td style="text-align: center;"><a href="https://1.bp.blogspot.com/-iRKRV-0_0CA/WQSF7KroB0I/AAAAAAAAOEI/S1IrywbAUj8uI777bav_D2HLvhqRs1C6wCLcB/s1600/Schermata%2B2017-04-26%2Balle%2B07.35.03.png" imageanchor="1" style="margin-left: auto; margin-right: auto;"><img border="0" height="210" src="https://1.bp.blogspot.com/-iRKRV-0_0CA/WQSF7KroB0I/AAAAAAAAOEI/S1IrywbAUj8uI777bav_D2HLvhqRs1C6wCLcB/s400/Schermata%2B2017-04-26%2Balle%2B07.35.03.png" width="400" /></a></td></tr><tr><td class="tr-caption" style="text-align: center;">Few descriptive clusters (click to enlarge)</td></tr></tbody></table><div style="text-align: justify;"><br /></div><div style="text-align: justify;">As today many analysts did a great job in study ShadowBrokers leak, but few of them (actually none so far, at least in my knowledge ) tried to cluster result sets derived by dynamic execution of ShadowBrokers leaks. In this post I tried to follow my previous path enlarging my public dataset by offering to security researcher data, procedures and tools to make their own analyses.</div></div><div><br /></div></div>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=ShadowBrokers%20Leak%3a%20A%20Machine%20Learning%20Approach-http%3a%2f%2fmarcoramilli.com%2fpost%2fshadowbrokers-leak-a-machine-learning-approach%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2fshadowbrokers-leak-a-machine-learning-approach%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fshadowbrokers-leak-a-machine-learning-approach%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2fshadowbrokers-leak-a-machine-learning-approach%2f&title=ShadowBrokers%20Leak%3a%20A%20Machine%20Learning%20Approach" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fshadowbrokers-leak-a-machine-learning-approach%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fshadowbrokers-leak-a-machine-learning-approach%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

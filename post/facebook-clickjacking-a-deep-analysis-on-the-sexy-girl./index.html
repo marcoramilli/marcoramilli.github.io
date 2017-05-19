@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> FaceBook ClickJacking: A Deep analysis on the Sexy Girl. &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Dec 14, 2010</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 700 words 3 min. read
+        </div>
+        <h1>FaceBook ClickJacking: A Deep analysis on the Sexy Girl.</h1>
+        <section id="post-content" class="article-content post">
+          <p><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 16.2037px; ">This afternoon I found out on my news feed this post:&ldquo;A sexy girl is playing with the Nintendo Wii.. lets see what happened next !&rdquo;. I was pretty curios to click on it because I knew this Social Engineering Trap. It is a classical one ;).</span></div><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_gK7b9huwiwY/TQewEvD2SwI/AAAAAAAAKiI/gArEwki5cZk/s1600/sexy.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 114px;" src="http://2.bp.blogspot.com/_gK7b9huwiwY/TQewEvD2SwI/AAAAAAAAKiI/gArEwki5cZk/s400/sexy.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5550598661155998466" /></a><br /><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 16.2037px; ">So lets click on it using a right click and save the link on memory. Then paste the grabbed Link on a empty browser url and lets go there seeing what will happen ! The crafted page seems very very close to the orignal youtube one, except for the URL (of course! )</span></div><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_gK7b9huwiwY/TQexbdG9eKI/AAAAAAAAKiQ/7oo976siDZc/s1600/youtubo.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 322px;" src="http://4.bp.blogspot.com/_gK7b9huwiwY/TQexbdG9eKI/AAAAAAAAKiQ/7oo976siDZc/s400/youtubo.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5550600150985832610" /></a><br /><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 16.2037px; ">If you go to its address (<a href="http://www.assurdo.info/w/wii.php">http://www.assurdo.info/w/wii.php</a>) you can easily find some inconsistencies for example: the loading bar appears to be half loaded as soon as you open the attack&rsquo;s link, the commands (Play, Stop, Pause) dont work at all (of course it&rsquo;s a simple image!) and an unusual sentence says: &ldquo;To play the video click Here&rdquo;. Here we go&hellip; another clickjacking site ! I&rsquo;ve already wrote about clickjacking in several forums, blogs etc. But if you are not familiar with this technique please read my last paper on this topic <a href="http://www.computer.org/portal/web/csdl/doi/10.1109/MSP.2009.177">here</a>.</span></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 16.2037px; ">Right click on the page and &hellip;.. a Javascript is disabling the right click on it, obviously they don&rsquo;t want that we read their code ;). Using the browser capability lets see what the attacker wrote into such a page. The following image describes the first half of the page code. A google Analytics account (UA-18918796-1) is present on the page. The attacker wants to keep tracking on how many people has been clickjacked through his page. A CSS page called &ldquo;foglio.css&rdquo; links to external source. Investigating foglio.css we see the page manipulation that happens, as usual, using z-index and opacity parameters, nothing really new.</span></div><div style="text-align: justify;"><br /></div><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://1.bp.blogspot.com/_gK7b9huwiwY/TQe10HdjeFI/AAAAAAAAKiY/KD6-qWxib20/s1600/Analysis1.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 363px; height: 400px;" src="http://1.bp.blogspot.com/_gK7b9huwiwY/TQe10HdjeFI/AAAAAAAAKiY/KD6-qWxib20/s400/Analysis1.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5550604972718258258" /></a><br /><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 16.2037px; ">Following the main HTML code, we meet the core of the attack. The following image describes the second half of the page.</span></div><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 16.2037px; ">A classic iFrame is used to hide the backgrounded page. I made the same example at <a href="http://deisnet.deis.unibo.it/CJK/">DEISNET page</a>, please take a look to them to fully understand how the iFrame hides the backgrounded page.</span></div><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_gK7b9huwiwY/TQe3otEaalI/AAAAAAAAKig/KWnZKmuSI4I/s1600/analysis2.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 363px; height: 400px;" src="http://2.bp.blogspot.com/_gK7b9huwiwY/TQe3otEaalI/AAAAAAAAKig/KWnZKmuSI4I/s400/analysis2.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5550606975678179922" /></a><br /><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 16.2037px; ">The most interesting stuff comes from the external Javascript called awe.js. Basically the page intercepts your click, using the fake button &ldquo;Play&rdquo; placed in the middle of the screen, triggering the javascript code. Such a code controls if you have already visited the following page (<a href="http://bit.ly/fCT54Z">http://bit.ly/fCT54Z</a>), which translated after 3 steps becomes<a href="http://www.mymatch.it/registrazione_veloce.php?p=251"> a simple registration form of mymatch</a>. If you had already visited it does nothing, if you had not visited the page it makes you visit it and then it builds a cookies to avoid you visit the page another time. This prevents that google or other advertisement companies think that somebody is attacking the adv services using http proxy. </span></div><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 16.2037px; "><br /><br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/_gK7b9huwiwY/TQfEfgbiKQI/AAAAAAAAKio/-MXiwllNQCA/s1600/Analysis3.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 382px;" src="http://2.bp.blogspot.com/_gK7b9huwiwY/TQfEfgbiKQI/AAAAAAAAKio/-MXiwllNQCA/s400/Analysis3.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5550621111317833986" /></a><br /><br />This trick is widely used in the underground communities to obtain fake clicks to get money from pay-per-click services. The script per-se does nothing bad at all to the attacked user, but it forces you to open a page generating traffic, clicks and page impressions on a URL where you wont click on it. Google and other advertisement companies recognize the click behavior and this techniques is the most used way to fake those services, since the click behavior is not altered from the usual one, respecting the normal click behavior stats.</span></div><div style="text-align: justify;"><br /></div><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 16.2037px; ">So if you fall into this attack don&rsquo;t worry, you don&rsquo;t need to change password, you have contributed to a click fraud.</span></div><br />A possible way to counterattack is to make several click on the link the attacker used (<a href="http://bit.ly/fCT54Z">http://bit.ly/fCT54Z</a>). By voluntary clicking on it you will change the &ldquo;normal clicking behavior&rdquo; which means Google and other adv services will close the attacker adv account. Now is up to you ;)</p>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=FaceBook%20ClickJacking%3a%20A%20Deep%20analysis%20on%20the%20Sexy%20Girl.-http%3a%2f%2fmarcoramilli.com%2fpost%2ffacebook-clickjacking-a-deep-analysis-on-the-sexy-girl.%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2ffacebook-clickjacking-a-deep-analysis-on-the-sexy-girl.%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffacebook-clickjacking-a-deep-analysis-on-the-sexy-girl.%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffacebook-clickjacking-a-deep-analysis-on-the-sexy-girl.%2f&title=FaceBook%20ClickJacking%3a%20A%20Deep%20analysis%20on%20the%20Sexy%20Girl." target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffacebook-clickjacking-a-deep-analysis-on-the-sexy-girl.%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2ffacebook-clickjacking-a-deep-analysis-on-the-sexy-girl.%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

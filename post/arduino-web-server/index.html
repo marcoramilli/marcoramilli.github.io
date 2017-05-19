@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> Arduino Web Server &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Aug 20, 2009</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 1000 words 5 min. read
+        </div>
+        <h1>Arduino Web Server</h1>
+        <section id="post-content" class="article-content post">
+          <p>Hacking means find the right way to compromise a system, often software is not enough and  sometime the attacker needs a hardware trick to compromise the whole system. This is the reason why I&rsquo;m studying the <a href="http://www.arduino.cc/">Arduino</a> board. Some of the real projects that I&rsquo;m doing cannot be published (so far), but some else can .<br />Using a simple Arduino 2009, an Ethernet shield and a common LCD is possible to make an interesting small and portable web-server. Following the code with a short descriptions.<br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/_gK7b9huwiwY/So2Agqy-tkI/AAAAAAAAJ8c/lYlkdJEoL_U/s1600-h/3174264740_9aff880f27.jpg"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 300px; height: 400px;" src="http://4.bp.blogspot.com/_gK7b9huwiwY/So2Agqy-tkI/AAAAAAAAJ8c/lYlkdJEoL_U/s400/3174264740_9aff880f27.jpg" border="0" alt="" id="BLOGGER_PHOTO_ID_5372091229255153218" /></a><br /><br />What you need is to download and to install (<arduino_base_dir>/hardware/library/) the following libraries:<br /><br /><code><br />/*************************************************<strong><em>/<br />// Written by Marco Ramilli <br />#include <ethernet.h> //Ethernet Library by Arduino<br />#include &ldquo;Dhcp.h&rdquo; //DhCP Library<br />#include <string.h>//Default String Library<br />#include <wstring.h> // String Library, you have to download it from Arduino web-site<br />#include <wire.h> //  Second String Library, you have to download it from Arduino web-site<br />#include <liquidcrystal.h> //Liquid Crystal Output<br />/</em></strong>***********************************************<strong>/<br /></code><br /><br />Note1: I&rsquo;ve used DHCP library even if a web server should have a static IP &hellip; &hellip;<br />Note2: I&rsquo;ve divided everything in classes, in such way you can divide the code in multiple files.<br /><br /><code><br />//defining Pages CLass<br />class Pages<br /> {<br /> public:<br />  Pages(char *header, char *pageStart, char *body, char *pageEnd) { _header = header; _pageStart = pageStart; _body = body; _pageEnd = pageEnd; } <br />  char *getHeader(){return _header;}<br />  char *getPageStart(){return _pageStart;}<br />  char *getBody(){return _body;}<br />  char *getPageEnd(){return _pageEnd;}<br />  char *getPage(){strcat(_header,_pageStart); strcat(_header,_body); strcat(_header,_pageEnd); return _header;    }<br />  void appendToBody(char *stringToAppend){strcat(_body,stringToAppend); }<br />  <br /> private: <br />  char *_header;<br />  char *_pageStart;<br />  char *_body;<br />  char *_pageEnd; <br /> };<br />/</strong>************************************************<strong>/<br />// defining Networkconfig Class<br />class NetworkConfig<br /> {<br /> public:<br />                NetworkConfig(byte *mac, byte *ip){_mac = mac; _ip = ip;}<br />  NetworkConfig(byte *mac, byte *ip, byte *mask, byte *gw, byte *dhcps, byte *dns) {_mac = mac; _ip = ip; _mask = mask; _gw = gw; _dhcps = dhcps; _dns = dns; } <br />  void setIP(byte *ip){_ip = ip;}<br />  void setMAC(byte *mac){_mac = mac;}<br />                void setMASK(byte *mask){_mask = mask;}<br />                void setGW(byte *gw){_gw = gw;}<br />                void setDHCPS(byte *dhcps){_dhcps = dhcps;}<br />                void setDNS(byte *dns){_dns = dns;}<br />                <br />  byte *getIP(){return _ip;}<br />  byte *getMAC(){return _mac;}<br />                byte *getMASK(){return _mask;}<br />                byte *getGW(){return _gw;}<br />                byte *getDHCPS(){return _dhcps;}<br />                byte *getDNS(){return _dns;}<br /> private: <br />  byte *_ip;<br />  byte *_mac;<br />                byte *_mask;<br />                byte *_gw;<br />                byte *_dhcps;<br />                byte *_dns;  <br /> };<br /><br /></code><br /><br />Of curse, if no DHCP is detected, the server wanna be on 192.168.1.50 .<br /><br /><code><br />/</strong>***********************************************<strong><em>/<br />//Defult Network Configuration instances<br />byte ip[] = { 192, 168, 1, 50 };<br />byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };<br />NetworkConfig defaultconf(mac, ip);<br />/</em></strong>**********************************************<strong><em>/<br /><br /></code><br /><br />Here some useful cost to define.<br /><br /><code><br />/</em></strong>***********************************************<strong><em>/<br />#define maxLength 25 // preventing BoF<br />#define serverPort 80 // listening port<br />String inString = String(maxLength);<br />Server server(serverPort);<br />int val, p;<br />LiquidCrystal lcd(8, 7, 6, 5, 4, 3, 2); //Declare a LDC display, for ping look over<br />/</em></strong>**********************************************<strong><em>/<br />               <br /></code><br /><br />Here the real interesting code&hellip; &hellip;<br /><br /><code><br />void setup() // before going on, we need some stuff<br />{<br />  Serial.begin(9600); // just for debugginh<br />  lcd.begin(1,8); // configure LCD display size (raw, col)<br />  if(!getNC()){<br />  Ethernet.begin(defaultconf.getMAC(), defaultconf.getIP() );<br />  }<br />  server.begin();<br />}<br />/</em></strong>**********************************************<strong><em>/<br />void loop()<br />{<br />  Client client = server.available(); //Gets a client that is connected to the server and has data available for reading<br />  if (client) {<br />    boolean current_line_is_blank = true; // html protocol &hellip;.<br />    while (client.connected()) {<br /><br />      if (client.available()) { // client is sending something<br />        p = 0; //lets see if the client wants initial page<br />        char c = client.read(); //reading whatever the client sends<br />        if (inString.length() &lt; maxLength) { // currently there is no way to make it dinamic<br />          inString.append&copy;;<br />           Serial.println(inString); //Only To DEBUG !<br />         }        <br />        if (c == &lsquo;\n&rsquo; &amp;&amp; current_line_is_blank) { //means the client has stopped to end us chars<br />          if (inString.contains(&ldquo;?&rdquo;)) { // means the client wanna communicate with us<br />           int Pos_p = inString.indexOf(&ldquo;p&rdquo;);<br />           p = atoi(inString.substring((Pos_p+2), (Pos_p+4)));<br />         }<br />         <br /><br /></code><br /><br />This case is useful to figure out  POST and/or GET actions.<br /><br /><code><br />          switch (p){<br />           // due to BoF bug, actually is not possible to write index.getPage(). But late versions of Arduino &hellip; &hellip; &hellip;<br />          case 0:<br />            printonlcd(&ldquo;Index&rdquo;);<br />            client.println(index.getHeader() );<br />            client.println(index.getPageStart() );<br />            client.println(index.getBody() );<br />            client.println(index.getPageEnd() );<br />            break;<br />          <br />          case 1:<br />            printonlcd(&ldquo;Page_1&rdquo;);<br />            client.println(page1.getHeader() );<br />            client.println(page1.getPageStart() );<br />            client.println(page1.getBody() );<br />            client.println(page1.getPageEnd() );<br />            break;<br />          case 2:<br />            printonlcd(&ldquo;Page_2&rdquo;);<br />            client.println(page2.getHeader() );<br />            client.println(page2.getPageStart() );<br />            client.println(page2.getBody() );<br />            client.println(page2.getPageEnd() );<br />            break;<br />          default:<br />            printonlcd(&ldquo;Page_D&rdquo;);<br />            client.println(index.getHeader() );<br />            client.println(index.getPageStart() );<br />            client.println(index.getBody() );<br />            client.println(index.getPageEnd() );<br />            break;<br />          }<br />          <br />          break;     <br />         <br />        }<br />        if (c == &lsquo;\n&rsquo;) {<br />          current_line_is_blank = true;<br />        } else if (c != &lsquo;\r&rsquo;) {<br />          current_line_is_blank = false;<br />        }<br />      }<br />    }<br />    delay(1);<br />    inString = &ldquo;&rdquo;;<br />    client.stop();<br />  }<br />}<br /><br /></code><br /><br />Here how dchp library works, thank to <a href="http://blog.jordanterrell.com/post/Arduino-DHCP-Library-Version-04.aspx">Jordan Terrel</a><br /><br /><code><br /><br />/</em></strong>**********************************************<strong><em>/<br />//DHCP client<br />int getNC(){  <br /> int result = Dhcp.beginWithDHCP(mac);<br /> if (result == 1){<br />    byte buffer[6]; <br />    Dhcp.getLocalIp(buffer);<br />    Serial.print(&ldquo;ip address: &ldquo;);<br />    printArray(&amp;Serial, &ldquo;.&rdquo;, buffer, 4, 10);<br />    Dhcp.getSubnetMask(buffer);<br />    Serial.print(&ldquo;subnet mask: &ldquo;);<br />    printArray(&amp;Serial, &ldquo;.&rdquo;, buffer, 4, 10);<br />    Dhcp.getGatewayIp(buffer);<br />    Serial.print(&ldquo;gateway ip: &ldquo;);<br />    printArray(&amp;Serial, &ldquo;.&rdquo;, buffer, 4, 10);<br />    Dhcp.getDhcpServerIp(buffer);<br />    Serial.print(&ldquo;dhcp server ip: &ldquo;);<br />    printArray(&amp;Serial, &ldquo;.&rdquo;, buffer, 4, 10);<br />    Dhcp.getDnsServerIp(buffer);<br />    Serial.print(&ldquo;dns server ip: &ldquo;);<br />    printArray(&amp;Serial, &ldquo;.&rdquo;, buffer, 4, 10);<br />    Serial.print(&ldquo;READY&rdquo;);<br />    printonlcd(&ldquo;READY&rdquo;);<br />    return 1;<br /> }else{<br />  Serial.print(&ldquo;No DHCP, Running in default conf&rdquo;);<br />  printonlcd(&ldquo;DEFAULT&rdquo;);<br />    return 0;<br /> }<br />}<br /><br /></code><br /><br />Here how LCD library works<br /><br /><code><br /><br />/</em></strong>*************************************************/<br /><br />void printonlcd(String text){<br />  lcd.clear();<br />  <br />  if (text.length() &lt;= 7){<br />    lcd.print(text); <br />    lcd.blink();<br />    <br />      <br />  }else{ // n with this lcd<br />    int index =0;<br />    while (index &gt;=0){<br />      delay(200);<br />      for (int positionl = 0; positionl &lt; 8; positionl ++){<br />         lcd.scrollDisplayLeft(); <br />         delay(150);<br />      }<br />      for (int positionr = 0; positionr &lt; 8; positionr ++){<br />         lcd.scrollDisplayRight(); <br />         delay(150);<br />      }<br />      index&ndash;;<br />    }<br />  }<br />}<br /><br />//printArray funciton<br />void printArray(Print <em>output, char</em> delimeter, byte* data, int len, int base){<br />char buf[10] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};<br />  for(int i = 0; i &lt; len; i++)<br />  {<br />    if(i != 0)<br />      output-&gt;print(delimeter);<br />    output-&gt;print(itoa(data[i], buf, base));<br />  }<br />  output-&gt;println();<br />}<br /><br /><br /></code><br /><br /><br /><br />That&rsquo;s all !<br />Hope to be useful .</p>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=Arduino%20Web%20Server-http%3a%2f%2fmarcoramilli.com%2fpost%2farduino-web-server%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2farduino-web-server%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2farduino-web-server%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2farduino-web-server%2f&title=Arduino%20Web%20Server" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2farduino-web-server%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2farduino-web-server%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

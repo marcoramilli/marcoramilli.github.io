@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <title> MAC OS X Binary Packer: UPX for MAC (OS X) ! &middot; Marco Ramilli </title>
+    
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/uno.min.css" />
+    <link rel="stylesheet" type="text/css" href="http://marcoramilli.com/css/lightGallery.css" />
+    
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://marcoramilli.com/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    
+    <link href="" rel="alternate" type="application/rss+xml" title="Marco Ramilli" />
+    
+    <script src="http://marcoramilli.com/js/jquery.min.js"></script>
+    <script src="http://marcoramilli.com/js/main.min.js">
+    </script>
+</head>
+
+<body>
+  <div id="scriptHeader">
+    <span class="mobile btn-mobile-menu">
+            <i class="fa fa-bars btn-mobile-menu__icon"></i>
+            <i class="fa fa-times btn-mobile-close__icon hidden"> </i>
+    </span>
+    <header class="
+        
+            panel-cover panel-cover--collapsed
+        "  style="background-image: url(/images/background-cover.jpg)" >
+    <div class="panel-main">
+        <div class="panel-main__inner panel-inverted">
+            <div class="panel-main__content"> 
+                <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                <h1 class="panel-cover__title panel-title">
+                    <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                </h1>
+                <hr class="panel-cover__divider" />
+                <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                  <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fa fa-code-fork'></i></a>  
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                        </nav> 
+                    </div>
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+
+
+            </div>
+        </div>
+        <div class="panel-cover--overlay"></div>
+    </div>
+</header>
+</div>
+<noscript>
+    <style>
+        #scriptHeader {display:none;}
+        .navigation-wrapper{
+            display: block;
+            top: 0;
+        }
+    </style>
+
+    <header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+        <div class="panel-main">
+            <div class="panel-main__inner panel-inverted">
+                <div class="panel-main__content"> 
+                    <a href="http://marcoramilli.com/" title="link to homepage for Marco Ramilli"> <img src="http://marcoramilli.com/images/MR.jpg" width="80" alt="Marco Ramilli logo" class="panel-cover__logo logo" /> </a> 
+                    <h1 class="panel-cover__title panel-title">
+                        <a href="http://marcoramilli.com/"  title="link to homepage for Marco Ramilli">Marco Ramilli</a>
+                    </h1>
+                    <hr class="panel-cover__divider" />
+                    <p class="panel-cover__description">  cat /dev/random | grep cybersecurity  </p>
+                    <hr class="panel-cover__divider panel-cover__divider--secondary" />
+                    <div class="navigation-wrapper">
+                        <nav class="cover-navigation cover-navigation--primary">
+                            <ul class="navigation">
+                              <li class="navigation__item"><a href="http://marcoramilli.com/#blog" title="link to Marco Ramilli blog"> <i  class='fa fa-th'></i></a> </li></br>
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/about" title="About "> <i  class='fa fa-user'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/projects" title="Some of my Projects"> <i  class='fafa-code-fork'></i></a> </li></br> 
+                                  <li class="navigation__item"><a href="http://marcoramilli.com/pages/publications" title="Selected Publications"> <i class='fa fa-book'> </i></a>  
+                           </ul>
+                        </nav> <nav class="cover-navigation navigation--social">
+    <ul class="navigation"> 
+        
+        <li class="navigation__item">
+            <a href="http://twitter.com/Marco_Ramilli" title="@Marco_Ramilli on Twitter"> <i class='fa fa-twitter'></i> <span class="label">Twitter</span> </a>
+        </li>   
+        
+        <li class="navigation__item">
+            <a href="https://github.com/marcoramilli" title="marcoramilli on github"> <i class='fa fa-github'></i> <span class="label">Github</span> </a>
+        </li>  </br>  
+        
+        <li class="navigation__item">
+            <a href="https://www.linkedin.com/in/marcoramilli" title="Linkedin"> <i class='fa fa-linkedin'></i> <span class="label">Linkedin</span> </a>
+        </li>  
+        
+        <li class="navigation__item">
+            <a href="mailto:mramilli@gmail.com" title="Email mramilli@gmail.com"> <i class='fa fa-envelope-o'></i> <span class="label">Email</span> </a>
+        </li>  </ul>
+</nav>
+ </div>
+                </div>
+            </div>
+            <div class="panel-cover--overlay"></div>
+        </div>
+    </header>
+</noscript>
+
+  <div class="content-wrapper">
+    <div class="content-wrapper__inner">
+      <div class="post">
+        <div class="post-meta">
+          <span class="post-meta__date date">Feb 21, 2011</span>
+          
+          <span class="post-meta__tags tags">
+            <font class="tags">
+              
+            </font>
+          </span>
+          • 400 words 2 min. read
+        </div>
+        <h1>MAC OS X Binary Packer: UPX for MAC (OS X) !</h1>
+        <section id="post-content" class="article-content post">
+          <p><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 15.9722px; ">Hi folks,</span></div><div style="text-align: justify;">after some emails asking help to find out a good binary packer for OS X, I decided to write a little post on the topic.</div><div><br /></div><div style="text-align: justify;">Of course there are many binary packers out  there, but today I am going to write about <a href="http://upx.sourceforge.net/">UPX</a> (Ultimate Packer for eXecutables) for two main reasons: first of all because it supports many different executables formats as shown in the following table:</div><div><br /></div><br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://2.bp.blogspot.com/-euGOb2y2mT8/TWNuXLFsLUI/AAAAAAAAKng/0jAqS1Jebf0/s1600/t1.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 218px; height: 400px;" src="http://2.bp.blogspot.com/-euGOb2y2mT8/TWNuXLFsLUI/AAAAAAAAKng/0jAqS1Jebf0/s400/t1.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5576422108007509314" /></a><br /><br /><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 15.9722px; ">And second it offers a great compressing ratio, for example Netscape 4.06 (Window/PE) uncompressed is 2866KB while compressed becomes 1098KB a great ratio of 0.38. The following table shows some more results on its compression ratio</span></div><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/-j4_EMcpfWso/TWNvROVOnfI/AAAAAAAAKno/ENW18kGkFzo/s1600/cr.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 331px;" src="http://4.bp.blogspot.com/-j4_EMcpfWso/TWNvROVOnfI/AAAAAAAAKno/ENW18kGkFzo/s400/cr.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5576423105310399986" /></a><br /><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 15.9722px; ">Last but not least it&rsquo;s an open-source project that runs perfectly on MAC platforms. Before compiling the source code you need <a href="http://www.oberhumer.com/opensource/ucl/">UCL</a> (UCL is a portable lossless data compression library written in ANSI C) installed on your  MAC. MAC port helps us, so just type: <span style="font-style:italic;">sudo port install ucl</span> it will be enough ;). After that just type <span style="font-style:italic;">make</span> and sudo <span style="font-style:italic;">make install</span>. Some people had troubles in compiling the libraries, in-fact some errors due to missing libraries could happen even if officially it depends only from UCL. So If you have trouble with the compiling process you can download<a href="http://dl.dropbox.com/u/13531801/upx-MR.zip"> UPX-FOR-MAC directly here</a>.</span></div><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 15.9722px; ">Once you&rsquo;ve compiled it (or downloaded from <a href="http://dl.dropbox.com/u/13531801/upx-MR.zip">here</a> ) you may try to test it in the following way:</span></div><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 15.9722px; ">1) Lets compress itself and see what happens</span></div><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://3.bp.blogspot.com/-2ywqNsBj79U/TWN0L2U6ZkI/AAAAAAAAKn4/ifjKUK_K5j4/s1600/compress.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 140px;" src="http://3.bp.blogspot.com/-2ywqNsBj79U/TWN0L2U6ZkI/AAAAAAAAKn4/ifjKUK_K5j4/s400/compress.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5576428510525417026" /></a><br /><br /><div style="text-align: justify;"><span class="Apple-style-span" style="font-size: 15.9722px; ">2) Lets give back executable rights to the resulting file (typing: chmod +x upx-compressed). We now are able to execute the macho file even if compressed. BTW we discussed about how it is possible that a compressed executable can still be executed in previous posts, but anyway, the compression process puts in the &ldquo;top&rdquo; of the execution chain a stub able to decompress the remaining data during runtime (of course the execution time will be little bit longer since the decompression procedure).</span></div><br /><br /><a onblur="try {parent.deselectBloggerImageGracefully();} catch(e) {}" href="http://4.bp.blogspot.com/-4drETLJuS4Y/TWN16P-meoI/AAAAAAAAKoA/5gF6dQii-PA/s1600/confront.png"><img style="display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;width: 400px; height: 62px;" src="http://4.bp.blogspot.com/-4drETLJuS4Y/TWN16P-meoI/AAAAAAAAKoA/5gF6dQii-PA/s400/confront.png" border="0" alt="" id="BLOGGER_PHOTO_ID_5576430407196768898" /></a><br /><br />3) Lets compare the sizes. The above picture shows the different size of both macho files: the  compressed executable 707K and the uncompressed one 3.2M.  Well, what cha we say if not good job UPX folks !</p>
+
+        </section>
+      </div>
+      <div class="sharing">
+<a href="https://twitter.com/intent/tweet?status=MAC%20OS%20X%20Binary%20Packer%3a%20UPX%20for%20MAC%20%28OS%20X%29%20%21-http%3a%2f%2fmarcoramilli.com%2fpost%2fmac-os-x-binary-packer-upx-for-mac-os-x-%2f" target="_blank" title="Follow me on Twitter" class="twitter">
+<span class="fa fa-twitter-square fa-3x"></span></a>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fmarcoramilli.com%2fpost%2fmac-os-x-binary-packer-upx-for-mac-os-x-%2f" target="_blank" title="Join me on Facebook" class="facebook">
+<span class="fa fa-facebook-square fa-3x"></span></a>
+<a href="https://plus.google.com/share?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fmac-os-x-binary-packer-upx-for-mac-os-x-%2f" target="_blank" title="Google+" class="googleplus">
+<span class="fa fa-google-plus-square fa-3x"></span></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3a%2f%2fmarcoramilli.com%2fpost%2fmac-os-x-binary-packer-upx-for-mac-os-x-%2f&title=MAC%20OS%20X%20Binary%20Packer%3a%20UPX%20for%20MAC%20%28OS%20X%29%20%21" target="_blank" title="LinkedIn" class="linkedin">
+<span class="fa fa-linkedin-square fa-3x"></span></a>
+<a href="http://www.reddit.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fmac-os-x-binary-packer-upx-for-mac-os-x-%2f" target="_blank" title="Reddit" class="reddit"><span class="fa fa-reddit-square fa-3x"></span></a>
+<a href="http://www.stumbleupon.com/submit?url=http%3a%2f%2fmarcoramilli.com%2fpost%2fmac-os-x-binary-packer-upx-for-mac-os-x-%2f" target="_blank" title="StumbleUpon" class="stumbleupon"><span class="fa fa-stumbleupon fa-3x">
+</span></a>
+</div>
+
+      
+
+
+
+      <footer class="footer"></footer>
+
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="http://marcoramilli.com/js/awesome-toc.min.js"></script>
+<script type="text/javascript">
+$.awesome_toc({        
+      title: "Index",
+          overlay: true,
+              contentId: "post-content",
+});
+</script>
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-5633272-11', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+</html>

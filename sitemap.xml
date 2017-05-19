@@ -1,0 +1,2998 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://marcoramilli.com/post/shadowbrokers-leak-a-machine-learning-approach/</loc>
+    <lastmod>2017-04-29T06:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-quick-revenge-analysis/</loc>
+    <lastmod>2017-03-20T23:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/crypt0l0cker-revival-/</loc>
+    <lastmod>2017-02-12T07:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/malware-training-sets-a-machine-learning-dataset-for-everyone/</loc>
+    <lastmod>2016-12-15T23:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/dirty-cow-notes/</loc>
+    <lastmod>2016-10-30T09:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/cybersecurity-awareness/</loc>
+    <lastmod>2016-10-17T05:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/internet-of-broken-things-threats-are-changing-so-are-we-/</loc>
+    <lastmod>2016-09-20T00:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/summing-up-the-shadowbrokers-leak/</loc>
+    <lastmod>2016-08-23T00:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/fighting-ransomware-threats/</loc>
+    <lastmod>2016-08-01T23:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/from-rop-to-lop-bypassing-control-flow-enforcement/</loc>
+    <lastmod>2016-06-22T22:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/process-hollowing/</loc>
+    <lastmod>2016-05-29T23:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/notorious-hacking-groups-in-mid-2016/</loc>
+    <lastmod>2016-05-16T20:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/looking-for-caves-in-windows-executables/</loc>
+    <lastmod>2016-04-20T02:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/recovering-files-from-brand-new-crypt0l0cker/</loc>
+    <lastmod>2016-03-21T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ransomware-a-general-view-after-field-experiences/</loc>
+    <lastmod>2016-02-16T04:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/spotting-malicious-node-relays/</loc>
+    <lastmod>2015-12-20T23:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rai-uno-tg1-cyber-security-speciale/</loc>
+    <lastmod>2015-10-26T09:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/sandboxes-personal-evaluations/</loc>
+    <lastmod>2015-10-19T13:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/shifu-a-new-interesting-banking-trojan/</loc>
+    <lastmod>2015-09-03T06:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/exploit-kits-on-august-2015/</loc>
+    <lastmod>2015-08-11T11:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/static-analysis-malware-statistics/</loc>
+    <lastmod>2015-06-22T22:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/volatility-on-darkcomet/</loc>
+    <lastmod>2015-05-10T22:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/github-and-the-man-on-the-side-attack/</loc>
+    <lastmod>2015-04-07T04:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/angler-and-the-new-threats/</loc>
+    <lastmod>2015-03-06T06:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/notorious-hacking-groups./</loc>
+    <lastmod>2015-02-13T08:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/romantic-cyber-attack-process/</loc>
+    <lastmod>2015-01-28T22:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/getting-persistence-with-no-malware/</loc>
+    <lastmod>2015-01-11T23:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/indusrtial-control-systems-an-interview/</loc>
+    <lastmod>2015-01-05T11:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/pdf-versions-malicious-content-distribution/</loc>
+    <lastmod>2014-12-23T01:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/operation-clever/</loc>
+    <lastmod>2014-12-04T00:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/regeneration-regin-targeted-attack/</loc>
+    <lastmod>2014-11-27T23:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/wirelurker-a-shock-in-apple-world./</loc>
+    <lastmod>2014-11-06T05:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-most-famous-malwares-in-apta/</loc>
+    <lastmod>2014-10-13T02:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/bash-vulnearbility-cve-2014-6271/</loc>
+    <lastmod>2014-09-24T12:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/nice-way-to-evade-dynamic-analysis/</loc>
+    <lastmod>2014-09-10T00:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/cyber-intelligence-abusing-internet-explorer-to-perform-targeted-attacks/</loc>
+    <lastmod>2014-07-27T22:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/openssl-ccs-attack/</loc>
+    <lastmod>2014-07-01T22:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/malcontrol-video/</loc>
+    <lastmod>2014-05-16T11:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/say-hello-to-malcontrol-malware-control-monitor/</loc>
+    <lastmod>2014-05-02T02:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/infosec-london-2014/</loc>
+    <lastmod>2014-04-28T13:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/malware-writers./</loc>
+    <lastmod>2014-04-03T23:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/cloud-security-infographics/</loc>
+    <lastmod>2014-04-01T23:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/managing-and-writing/</loc>
+    <lastmod>2014-03-08T05:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/when-fun-comes-to-crypto/</loc>
+    <lastmod>2014-02-12T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/hacking-through-image-gif-turn/</loc>
+    <lastmod>2014-01-06T07:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/nsa-technology/</loc>
+    <lastmod>2014-01-04T07:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/good-readings/</loc>
+    <lastmod>2013-12-29T03:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/hacking-through-images/</loc>
+    <lastmod>2013-10-21T22:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/bug-in-wincalc.exe/</loc>
+    <lastmod>2013-08-16T07:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/malware-evasion-chart/</loc>
+    <lastmod>2013-07-20T06:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/hash-detector-tool/</loc>
+    <lastmod>2013-06-24T03:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/zeus-evolution-its-time-for-p2p-and-rsa./</loc>
+    <lastmod>2013-06-16T10:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/firmware-hacking-the-samsung-smart--tv-turn/</loc>
+    <lastmod>2013-05-12T23:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/finding-path-to-known-functions-through-ida-pro/</loc>
+    <lastmod>2013-05-04T10:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/vulnerability-classification/</loc>
+    <lastmod>2013-03-27T11:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/nozzle-and-bubble-a-trick-to-jump-them/</loc>
+    <lastmod>2013-03-17T14:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/scada-insecurity/</loc>
+    <lastmod>2013-02-02T10:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/busybusybusy-and-java-vulnerability/</loc>
+    <lastmod>2013-01-15T13:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/how-malware-survives-to-malware-detection-mechanisms/</loc>
+    <lastmod>2012-11-08T00:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/idascope-a-great-swissknife-for-reversers/</loc>
+    <lastmod>2012-10-25T06:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/leading-a-security-team/</loc>
+    <lastmod>2012-09-26T05:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yes-we-all-are-immortals.../</loc>
+    <lastmod>2012-09-05T13:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/raising-risk-awareness-on-the-adoption-of-web-2.0-technologies-in-decision-making-processes/</loc>
+    <lastmod>2012-08-17T04:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/javascript-and-botnets/</loc>
+    <lastmod>2012-08-07T09:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/computer-security-training-and-education/</loc>
+    <lastmod>2012-06-22T07:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-great-analysis-post-on-flame-string-encryption/</loc>
+    <lastmod>2012-06-02T06:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/automatic-exploit-generation-a-provocative-post/</loc>
+    <lastmod>2012-05-14T21:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/plaid-ctf-results/</loc>
+    <lastmod>2012-05-01T21:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/bypassing-.htaccess-by-using-gets/</loc>
+    <lastmod>2012-04-27T09:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/exe-null-entrypoint-execution/</loc>
+    <lastmod>2012-04-21T18:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-biggest-app-sec-mistakes-companies-make/</loc>
+    <lastmod>2012-04-17T20:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/x86-detailed-informations/</loc>
+    <lastmod>2012-04-15T05:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-design-methodology-for-computer-security-testing/</loc>
+    <lastmod>2012-04-11T06:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/cve-2012-0507/</loc>
+    <lastmod>2012-04-02T00:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/windows-malware-a-reversing-engineering-document./</loc>
+    <lastmod>2012-03-28T10:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop-and-derop/</loc>
+    <lastmod>2012-03-24T00:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/android-bug-hunting-framework/</loc>
+    <lastmod>2012-03-23T12:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/book-review-the-tangled-web.-a-guide-to-securing-modern-web-applications/</loc>
+    <lastmod>2012-03-21T00:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/free-iphone-security-reader/</loc>
+    <lastmod>2012-03-15T02:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/steganography-tools-a-non-exhaustive-survey/</loc>
+    <lastmod>2012-03-09T07:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/where-are-the-best-engineers-/</loc>
+    <lastmod>2012-03-08T05:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/an-interesting-tool-for-your-swissknife./</loc>
+    <lastmod>2012-02-29T05:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-new-way-to-detect-packers/</loc>
+    <lastmod>2012-02-15T02:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ida-pro-and-virustotal-plugin/</loc>
+    <lastmod>2012-02-13T00:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/antivirus-terminators/</loc>
+    <lastmod>2012-02-07T09:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/windows-loader-and-aslr-on-binaries/</loc>
+    <lastmod>2012-01-30T01:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/breaking-the-linux-kernel-slob-allocator/</loc>
+    <lastmod>2012-01-23T13:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/automotive-attack-surface/</loc>
+    <lastmod>2012-01-15T09:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/todays-threats./</loc>
+    <lastmod>2012-01-10T07:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/detection-of-metamorphic-malware/</loc>
+    <lastmod>2012-01-04T23:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yes-it-still-happens-freebsd-telnet-bof/</loc>
+    <lastmod>2011-12-27T01:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ida-findcrypt/</loc>
+    <lastmod>2011-12-21T10:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/book-review-a-bug-hunters-diary/</loc>
+    <lastmod>2011-12-19T01:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/testing-aslr-on-linux-kernel-2.6.38-and-lion/</loc>
+    <lastmod>2011-12-15T01:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/from-rop-to-jop/</loc>
+    <lastmod>2011-12-14T07:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ettercap-is-still-alive/</loc>
+    <lastmod>2011-12-11T23:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ictf2011-experience/</loc>
+    <lastmod>2011-12-03T01:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/pop-pop-ret-seh-exploiting-process/</loc>
+    <lastmod>2011-11-27T22:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ructf2011---espcardgame-exploiting-process-/</loc>
+    <lastmod>2011-11-20T22:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/thread-injection/</loc>
+    <lastmod>2011-11-14T04:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/global-offset-table-injection-procedure/</loc>
+    <lastmod>2011-11-04T03:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/does-av-really-increase-security-/</loc>
+    <lastmod>2011-11-01T08:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop-chain-for-windows-8/</loc>
+    <lastmod>2011-10-27T23:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/amazon-and-eucalyptus-hacked./</loc>
+    <lastmod>2011-10-25T05:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/malware-2011/</loc>
+    <lastmod>2011-10-20T04:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/bypassing-windows-7-aslr/</loc>
+    <lastmod>2011-10-13T01:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/your-browser-matters/</loc>
+    <lastmod>2011-10-12T02:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/another-simple-backdoor-shell/</loc>
+    <lastmod>2011-10-12T00:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/communication-between-multiple-arduino/</loc>
+    <lastmod>2011-10-09T23:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/americanexpress-and-the-hidden-page./</loc>
+    <lastmod>2011-10-07T06:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/icegov-2011-and-internet-voting./</loc>
+    <lastmod>2011-10-03T01:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ida2latex/</loc>
+    <lastmod>2011-09-23T03:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/bug-hunting/</loc>
+    <lastmod>2011-09-22T08:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ieee-malware-2011-two-research-papers-accepted-/</loc>
+    <lastmod>2011-09-19T01:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/misha-glenny-hire-the-hackers/</loc>
+    <lastmod>2011-09-14T00:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/paradiso-conference/</loc>
+    <lastmod>2011-09-08T07:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/brusseles-7-9-september/</loc>
+    <lastmod>2011-09-03T09:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop-ropme/</loc>
+    <lastmod>2011-08-30T05:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/contagio-malware-dump/</loc>
+    <lastmod>2011-08-28T12:23:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-week-in-delft-netherlands/</loc>
+    <lastmod>2011-08-28T07:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop-retn--offest-stack-compensation/</loc>
+    <lastmod>2011-08-22T08:09:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop--stack-compensation/</loc>
+    <lastmod>2011-08-22T07:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop-conditional-jumps/</loc>
+    <lastmod>2011-08-06T00:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop-stack-pivoting/</loc>
+    <lastmod>2011-08-03T07:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop-how-to-make-comparisons-/</loc>
+    <lastmod>2011-08-03T06:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop-some-useful-addresses/</loc>
+    <lastmod>2011-07-27T23:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rop-notes/</loc>
+    <lastmod>2011-07-24T00:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/debugging-via-code-injection-with-python/</loc>
+    <lastmod>2011-07-22T04:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-great-password-study./</loc>
+    <lastmod>2011-07-20T09:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/should-i-change-my-password-/</loc>
+    <lastmod>2011-07-20T02:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/nist-appendix-j./</loc>
+    <lastmod>2011-07-19T23:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-simple-connect-back-shell/</loc>
+    <lastmod>2011-07-18T03:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/international-conference-of-theory-and-practice-of-electronic-governance-icegov-2011/</loc>
+    <lastmod>2011-07-18T01:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/facebook-forensic/</loc>
+    <lastmod>2011-07-11T07:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/arp-dosser/</loc>
+    <lastmod>2011-07-05T10:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/top-25-most-dangerous-software-errors-2011/</loc>
+    <lastmod>2011-07-01T05:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/university-of-maryland-cyber-security-center../</loc>
+    <lastmod>2011-06-24T10:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/perfect-eavesdropping-on-a-quantum-cryptography-system/</loc>
+    <lastmod>2011-06-20T07:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/reading-android-memory-analysis/</loc>
+    <lastmod>2011-06-20T01:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/egov-2011/</loc>
+    <lastmod>2011-06-08T10:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/social-reverse-engineering/</loc>
+    <lastmod>2011-06-05T23:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/tresor-secure-encryption-out-of-ram-/</loc>
+    <lastmod>2011-06-01T00:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/android-botnet-a-great-poc-/</loc>
+    <lastmod>2011-05-31T04:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-ida-cross-reference/</loc>
+    <lastmod>2011-05-25T02:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/return-oriented-programming./</loc>
+    <lastmod>2011-05-19T23:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/how-to-upgrade-atmega8u2-firmware/</loc>
+    <lastmod>2011-05-16T23:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/password-manager/</loc>
+    <lastmod>2011-05-15T23:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/skype-vulnerability./</loc>
+    <lastmod>2011-05-12T05:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/brilliant-it-security-video/</loc>
+    <lastmod>2011-05-09T23:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ids-testing-frameworks/</loc>
+    <lastmod>2011-05-03T23:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/javascript-enkoder/</loc>
+    <lastmod>2011-04-30T00:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-tracker/</loc>
+    <lastmod>2011-04-26T00:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/nmap-xml-parser./</loc>
+    <lastmod>2011-04-20T23:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/tcp-split-handshake/</loc>
+    <lastmod>2011-04-18T06:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/dropbox-cloner./</loc>
+    <lastmod>2011-04-11T01:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/linux-the-first-twenty-years/</loc>
+    <lastmod>2011-04-08T09:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/google-reputation-attack./</loc>
+    <lastmod>2011-04-01T09:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/pe-infector/</loc>
+    <lastmod>2011-03-28T06:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/zeus-for-sale-/</loc>
+    <lastmod>2011-03-24T08:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/burp-v1.4-preview/</loc>
+    <lastmod>2011-03-22T04:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/google-feature-or-bug-/</loc>
+    <lastmod>2011-03-21T00:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-another-clickjacking-attempt-/</loc>
+    <lastmod>2011-03-17T00:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/hot-to-gain-administrative-privileges-on-any-blogger/</loc>
+    <lastmod>2011-03-14T00:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/arduino-uno-bootloader-fix.-aka-30k-upload-limit-fixed/</loc>
+    <lastmod>2011-03-11T08:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/owasp--antisamy/</loc>
+    <lastmod>2011-03-11T02:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/gdb-hacking-manual/</loc>
+    <lastmod>2011-03-09T12:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/hacking-training-center./</loc>
+    <lastmod>2011-03-02T23:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/blackhole-for-mac/</loc>
+    <lastmod>2011-02-28T23:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mac-os-x-binary-packer-upx-for-mac-os-x-/</loc>
+    <lastmod>2011-02-21T23:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/types-of-malicious-hacker/</loc>
+    <lastmod>2011-02-16T00:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/disassembly-desynchronization-overview/</loc>
+    <lastmod>2011-02-10T23:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ondm-2011-ill-be-there-/</loc>
+    <lastmod>2011-02-05T15:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ida-pro-universal-unpacker/</loc>
+    <lastmod>2011-01-31T11:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-on--physical-security-/</loc>
+    <lastmod>2011-01-28T02:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/how-to-patch-binary-with-ida-pro/</loc>
+    <lastmod>2011-01-25T02:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/google-goggles-sudoku-demo/</loc>
+    <lastmod>2011-01-20T23:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/pdf-online-tools/</loc>
+    <lastmod>2011-01-20T22:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/autodiff-online/</loc>
+    <lastmod>2011-01-19T08:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-enhanced-mitigation-experience-toolkit-2.0/</loc>
+    <lastmod>2011-01-12T20:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/sms-of-death/</loc>
+    <lastmod>2011-01-09T09:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/first-day-at-hicss/</loc>
+    <lastmod>2011-01-05T18:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-traveling-time./</loc>
+    <lastmod>2010-12-29T23:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/zozzle-the-microsoft-answer-to-javascript-malware./</loc>
+    <lastmod>2010-12-29T08:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/splitting-the-https-stream-to-attack-secure-web-connections/</loc>
+    <lastmod>2010-12-28T11:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/internet-explorer-css-0day.-exploit-released./</loc>
+    <lastmod>2010-12-23T10:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/working-capital-tour/</loc>
+    <lastmod>2010-12-22T12:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/facebook-security-malware-analysis/</loc>
+    <lastmod>2010-12-20T00:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/my-first-book./</loc>
+    <lastmod>2010-12-17T01:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/facebook-clickjacking-a-deep-analysis-on-the-sexy-girl./</loc>
+    <lastmod>2010-12-14T09:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/executable-and-linking-format/</loc>
+    <lastmod>2010-12-09T07:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/windows-pe-header/</loc>
+    <lastmod>2010-12-03T01:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/telecom-working-capital-/</loc>
+    <lastmod>2010-11-30T08:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/david-bismark-e-voting-without-fraud/</loc>
+    <lastmod>2010-11-26T01:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/spoofing-geolocations-on-facebook-places/</loc>
+    <lastmod>2010-11-24T10:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/stuxnet-malware./</loc>
+    <lastmod>2010-11-22T08:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/body-scanner-pic-gallery/</loc>
+    <lastmod>2010-11-17T09:23:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/text2bib/</loc>
+    <lastmod>2010-11-14T09:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-v.s-android-v.s-blackberry/</loc>
+    <lastmod>2010-11-05T16:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/windows-autopwn-a-sweet-first-step/</loc>
+    <lastmod>2010-11-04T00:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/can-your-mac-do-this-/</loc>
+    <lastmod>2010-11-01T09:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-great-sunday-reading./</loc>
+    <lastmod>2010-10-31T00:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-nerdest-clock-i-have-ever-seen-/</loc>
+    <lastmod>2010-10-29T08:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/firesheep-amazing-simplicity./</loc>
+    <lastmod>2010-10-28T08:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-voting-machines-implementation-issues/</loc>
+    <lastmod>2010-10-26T23:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-great-interview-rsa-2010/</loc>
+    <lastmod>2010-10-24T23:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/facetime-for-mac.-huge-security-hole/</loc>
+    <lastmod>2010-10-24T22:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/malware2010-status--smau./</loc>
+    <lastmod>2010-10-20T08:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/pindr0p-voice-routing-call-fingerprint-system./</loc>
+    <lastmod>2010-10-18T12:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-connector-number-3-iphone-3gs/</loc>
+    <lastmod>2010-10-13T23:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/first-multi-stage-malware-ready/</loc>
+    <lastmod>2010-10-13T09:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/just-fun-/</loc>
+    <lastmod>2010-10-12T23:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/when-money-are-more-important-then-democracy/</loc>
+    <lastmod>2010-10-11T23:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/libc-implementation-bug./</loc>
+    <lastmod>2010-10-08T05:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/bios-passwords-backdoors/</loc>
+    <lastmod>2010-10-08T04:54:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/hacking-the-d.c.-internet-voting-pilot/</loc>
+    <lastmod>2010-10-07T05:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/l517-window-wordlist-generator/</loc>
+    <lastmod>2010-10-06T10:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mastercard-and-visa-sites-bitten-by-xss-bugs/</loc>
+    <lastmod>2010-10-03T09:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/gpu-assisted-malware/</loc>
+    <lastmod>2010-09-29T00:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/security-thoughts/</loc>
+    <lastmod>2010-09-27T01:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/twitter-xss-vulnerability/</loc>
+    <lastmod>2010-09-21T23:09:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/how-to-write-a-dissertation/</loc>
+    <lastmod>2010-09-17T06:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/popular-usernames-and-password-in-a-graphic-way-/</loc>
+    <lastmod>2010-09-17T03:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/problems-reported-with-new-voting-machines/</loc>
+    <lastmod>2010-09-15T01:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/never-a-better-introduction./</loc>
+    <lastmod>2010-09-06T06:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-different-type-of-data-in-social-networks/</loc>
+    <lastmod>2010-09-03T22:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ieee-malware-2010./</loc>
+    <lastmod>2010-09-02T07:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/an-experimental-presentation/</loc>
+    <lastmod>2010-08-30T23:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/leaving-to-lausanne-sw/</loc>
+    <lastmod>2010-08-29T22:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/social-steganography-learning-to-hide-in-plain-sight/</loc>
+    <lastmod>2010-08-25T23:37:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/pac-man-on-the-sequoia-avc-edge-dre-voting-machine/</loc>
+    <lastmod>2010-08-21T00:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/pdf-my-url-/</loc>
+    <lastmod>2010-08-11T05:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/summertime-and-domscan/</loc>
+    <lastmod>2010-08-10T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/untangle-opensource-server/</loc>
+    <lastmod>2010-07-30T04:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/passwords-in-the-wild/</loc>
+    <lastmod>2010-07-28T02:23:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/wpa2-vulnerability-found/</loc>
+    <lastmod>2010-07-24T09:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/gsm-cracking-tool.-yes-its-open-source/</loc>
+    <lastmod>2010-07-23T00:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/research./</loc>
+    <lastmod>2010-07-20T13:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-moving-time.-destination-delft-netherlands/</loc>
+    <lastmod>2010-07-16T00:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/quantum-noise-breaks-random-number-generator-record/</loc>
+    <lastmod>2010-07-15T14:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/sans-investigative-forensic-toolkit/</loc>
+    <lastmod>2010-07-15T14:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/detecting-mobile-browsers/</loc>
+    <lastmod>2010-07-09T23:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/windows-win32-system-call-table/</loc>
+    <lastmod>2010-07-07T05:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/inundator./</loc>
+    <lastmod>2010-07-05T08:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/after-a-while-back-to-the-old-boot/</loc>
+    <lastmod>2010-07-01T22:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-hides-geo-location-into-images/</loc>
+    <lastmod>2010-06-25T16:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/drive-the-surprising-truth-about-what-motivates-us/</loc>
+    <lastmod>2010-06-22T11:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/reputation-analysis/</loc>
+    <lastmod>2010-06-18T10:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/new-jersey-uncontrolled-voting-machines/</loc>
+    <lastmod>2010-06-10T09:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/perl-binary-scanner-looking-for-environment-variables/</loc>
+    <lastmod>2010-06-06T20:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-moving-time./</loc>
+    <lastmod>2010-06-05T08:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mouseglove-4962-visits-in-one-week-/</loc>
+    <lastmod>2010-05-26T16:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/new-roboadmin-version/</loc>
+    <lastmod>2010-05-25T12:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/browser-measurement-aka-how-unique-is-your-browser/</loc>
+    <lastmod>2010-05-18T16:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/cve-details/</loc>
+    <lastmod>2010-05-14T11:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/window.parent.close---code-execution./</loc>
+    <lastmod>2010-05-10T12:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/presenting/</loc>
+    <lastmod>2010-05-09T11:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/epart-2010-switzerland-i-am-coming-/</loc>
+    <lastmod>2010-05-06T15:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/spirit-jailbreak-ipad/</loc>
+    <lastmod>2010-05-04T10:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mouseglove-new-video/</loc>
+    <lastmod>2010-04-30T22:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/introducing-...--mouseglove-v0.1-/</loc>
+    <lastmod>2010-04-25T12:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/windows-shellcode-detection/</loc>
+    <lastmod>2010-04-19T10:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/owasp-top-10-out--2010/</loc>
+    <lastmod>2010-04-19T08:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/finally-speed-matter/</loc>
+    <lastmod>2010-04-16T16:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/exploiting-a-kernel-null-dereference/</loc>
+    <lastmod>2010-04-15T11:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/webkit2-a-good-chance-for-security-/</loc>
+    <lastmod>2010-04-09T09:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/igov-2010.-ill-be-there/</loc>
+    <lastmod>2010-04-08T11:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/malware-yolrootx/</loc>
+    <lastmod>2010-04-06T15:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/php-6.0-dev-str_transliterate.-a-great-example-/</loc>
+    <lastmod>2010-04-05T11:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ipad-jailbreaking-/</loc>
+    <lastmod>2010-04-05T08:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/automatic-network-service-detector-within-twitter-logs.-arduino/</loc>
+    <lastmod>2010-03-29T16:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/browsers-classification-funny/</loc>
+    <lastmod>2010-03-26T09:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/towards-a-practical-and-effective-security-testing-methodology/</loc>
+    <lastmod>2010-03-24T19:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/chinese-academic-paper-a-mess/</loc>
+    <lastmod>2010-03-21T18:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ids-evasion/</loc>
+    <lastmod>2010-03-19T13:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/when-memory-injection-sucks/</loc>
+    <lastmod>2010-03-17T09:23:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/just-for-fun-the-fake-steve-job--home/</loc>
+    <lastmod>2010-03-16T08:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/exploiting--intel-cpu-caching./</loc>
+    <lastmod>2010-03-13T13:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/1024-bit-rsa-encryption-cracked/</loc>
+    <lastmod>2010-03-09T13:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/sick-and-busy/</loc>
+    <lastmod>2010-03-07T08:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/enhanced-tkip-michael-attacks/</loc>
+    <lastmod>2010-02-28T17:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/keykeriki-universal-wireless-sniffing/</loc>
+    <lastmod>2010-02-26T09:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/dnscat.-really-awesome/</loc>
+    <lastmod>2010-02-25T21:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/olly-debugger-long-file-extension-buffer-overflow/</loc>
+    <lastmod>2010-02-23T08:54:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rocklin-gas-pumps---hacked-/</loc>
+    <lastmod>2010-02-22T18:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/dns-tunneling-never-so-easy/</loc>
+    <lastmod>2010-02-20T13:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/spotthevuln-a-nice-way-to-learn-security./</loc>
+    <lastmod>2010-02-20T12:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/find-a-hash-sans-prototype/</loc>
+    <lastmod>2010-02-16T11:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/debian-version-of-dirchex/</loc>
+    <lastmod>2010-02-15T09:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/shell-code-wrapper/</loc>
+    <lastmod>2010-02-11T18:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/no-more-eu-swift-data-for-us/</loc>
+    <lastmod>2010-02-11T15:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/shell-code-generator/</loc>
+    <lastmod>2010-02-10T13:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/still-working-on-roboadmin-gui/</loc>
+    <lastmod>2010-02-09T10:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/features-vs-bugs/</loc>
+    <lastmod>2010-02-07T10:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/connect-back-shell/</loc>
+    <lastmod>2010-02-06T09:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/illinois-evoting-problems/</loc>
+    <lastmod>2010-02-02T08:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rfi-list/</loc>
+    <lastmod>2010-02-01T10:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/out-of-topic-ipad-laughter/</loc>
+    <lastmod>2010-01-31T18:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/who-are-you-/</loc>
+    <lastmod>2010-01-30T08:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ps3-good-job-george./</loc>
+    <lastmod>2010-01-28T08:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/irc-bots-a-small-collection/</loc>
+    <lastmod>2010-01-26T13:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/graphic-user-interface-on-roboadmin/</loc>
+    <lastmod>2010-01-24T10:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/payloads-generator-never-so--easy/</loc>
+    <lastmod>2010-01-21T18:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/proxy-checker/</loc>
+    <lastmod>2010-01-19T16:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/web-clicker--proxy-list/</loc>
+    <lastmod>2010-01-17T10:54:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/aurora-ie-vulnerability-used-against-google/</loc>
+    <lastmod>2010-01-16T15:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/atm-insecurity./</loc>
+    <lastmod>2010-01-15T10:54:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/reviewing-time/</loc>
+    <lastmod>2010-01-12T12:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/zeus-diy-kit./</loc>
+    <lastmod>2010-01-06T10:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/more-on-eicar/</loc>
+    <lastmod>2010-01-04T15:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/avfucker-new-version/</loc>
+    <lastmod>2010-01-02T11:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-culf-of-done-manifesto/</loc>
+    <lastmod>2010-01-01T18:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/decaf-is-back/</loc>
+    <lastmod>2009-12-30T09:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/tweeters-black-password-list/</loc>
+    <lastmod>2009-12-28T17:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/old-fashion--microsoft-iis-vulnerability/</loc>
+    <lastmod>2009-12-28T10:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/back-from-napa/</loc>
+    <lastmod>2009-12-27T15:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/microsoft-avast-and-mcafee-missing-simple-tests/</loc>
+    <lastmod>2009-12-23T10:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/new-version-of-eicar-gtube-generator/</loc>
+    <lastmod>2009-12-23T10:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/eicar-and-gtube-generator---anti-virus-results--/</loc>
+    <lastmod>2009-12-22T08:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/eicar-and-gtube-generator/</loc>
+    <lastmod>2009-12-20T13:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/cool-and-free-software-keylogger/</loc>
+    <lastmod>2009-12-20T09:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/free-huge-password-dictionary/</loc>
+    <lastmod>2009-12-16T14:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/detect-and-eliminate-computer-assisted-forensics-decaf/</loc>
+    <lastmod>2009-12-14T17:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/google-phonebook./</loc>
+    <lastmod>2009-12-12T09:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/finally-arrived-/</loc>
+    <lastmod>2009-12-12T09:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/clickjacking-starting-point./</loc>
+    <lastmod>2009-12-05T19:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/just-for-fun-not-yet-security/</loc>
+    <lastmod>2009-12-04T07:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/moving-time./</loc>
+    <lastmod>2009-11-30T06:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/youtube-video-spam/</loc>
+    <lastmod>2009-11-28T14:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/runalyzer./</loc>
+    <lastmod>2009-11-27T08:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/happy-thanksgiving-to-you/</loc>
+    <lastmod>2009-11-26T09:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/shodan-the-best-computer-search-engine-ever/</loc>
+    <lastmod>2009-11-24T08:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/definitely-polymorphic-malware./</loc>
+    <lastmod>2009-11-22T09:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-first-time-against-calling-conventions/</loc>
+    <lastmod>2009-11-20T08:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/top-5-social-engineering-techniques/</loc>
+    <lastmod>2009-11-19T16:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/caine-1.5-released/</loc>
+    <lastmod>2009-11-18T11:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/wikipedia-toolbar-csc-vulnerability/</loc>
+    <lastmod>2009-11-18T10:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/somewhere-in-delaware/</loc>
+    <lastmod>2009-11-16T16:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/gain-vista-administrators-privilege/</loc>
+    <lastmod>2009-11-14T08:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-science-news-cycle/</loc>
+    <lastmod>2009-11-14T07:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/tls-and-authentication-issues./</loc>
+    <lastmod>2009-11-12T06:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/windows-7-the-most-secure-os-.../</loc>
+    <lastmod>2009-11-11T07:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/microsoft-minifuzzer/</loc>
+    <lastmod>2009-11-10T08:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/why-prof.-chaums-machines-dont-work-in-california/</loc>
+    <lastmod>2009-11-09T07:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/thnk-you-xkcd-/</loc>
+    <lastmod>2009-11-08T17:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/maryland-tested-new-electronic-voting-system/</loc>
+    <lastmod>2009-11-06T13:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-hostage.-5-bucks-for-releasing./</loc>
+    <lastmod>2009-11-03T11:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/icann-approves-non-latin-character-domains/</loc>
+    <lastmod>2009-11-03T04:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/what-happened-to-google-/</loc>
+    <lastmod>2009-10-30T07:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/workshop-on-a-common-data-format-for-electronic-voting-system/</loc>
+    <lastmod>2009-10-29T10:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/5-million-hashes-/</loc>
+    <lastmod>2009-10-28T13:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/damn-vulnerable-web-application/</loc>
+    <lastmod>2009-10-28T08:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/cisco-zine-against-bpdu-attack/</loc>
+    <lastmod>2009-10-26T11:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/cia-and-social-data-mining/</loc>
+    <lastmod>2009-10-26T07:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/nist-on-security-video/</loc>
+    <lastmod>2009-10-23T08:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rat-brain-and-computer-security/</loc>
+    <lastmod>2009-10-23T06:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/windows-auto-start-locations/</loc>
+    <lastmod>2009-10-19T08:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/evil-maid-goes-after-truecrypt/</loc>
+    <lastmod>2009-10-16T07:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/so-many-important-people-in-one-day-../</loc>
+    <lastmod>2009-10-15T06:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/new-article-accepted-on-security--privacy/</loc>
+    <lastmod>2009-10-12T08:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/student-innovation-contest--jeff-allen-and-john-howard-good-job-/</loc>
+    <lastmod>2009-10-11T15:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/small-botnets-are-more-powerful-then-big-one-/</loc>
+    <lastmod>2009-10-10T21:09:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/google-adsense/</loc>
+    <lastmod>2009-10-07T12:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-another-diebold-hack-demonstration/</loc>
+    <lastmod>2009-10-05T12:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/working-with-sanbox/</loc>
+    <lastmod>2009-09-29T07:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/just-kidding/</loc>
+    <lastmod>2009-09-21T16:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yes-ive-done./</loc>
+    <lastmod>2009-09-15T15:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/youtube-visit-increaser/</loc>
+    <lastmod>2009-09-07T15:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/seth-explains-why-att-does-not-work-properly/</loc>
+    <lastmod>2009-09-05T04:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/whats-happening-to-apple-/</loc>
+    <lastmod>2009-09-04T08:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-nice-reading-for-your-week-end/</loc>
+    <lastmod>2009-09-03T04:23:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/walking-on-dc/</loc>
+    <lastmod>2009-08-30T16:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/arduino-web-server/</loc>
+    <lastmod>2009-08-20T09:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/back-from-paris-lot-of-stuff-.../</loc>
+    <lastmod>2009-08-20T01:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/w-la-france-/</loc>
+    <lastmod>2009-08-10T06:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/everybody-is-vulnerable-to-ddos/</loc>
+    <lastmod>2009-08-07T07:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/apple-keyboards-vulnerable-to-firmware-hack/</loc>
+    <lastmod>2009-08-03T08:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/what-is-cloud-/</loc>
+    <lastmod>2009-07-29T13:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/moving-time/</loc>
+    <lastmod>2009-07-22T07:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/live-view/</loc>
+    <lastmod>2009-07-06T09:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/passions-unforgettable/</loc>
+    <lastmod>2009-06-26T08:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-italian-answer-to-cybersecurity-agency/</loc>
+    <lastmod>2009-06-26T02:09:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yeat-another-clickjacking-example/</loc>
+    <lastmod>2009-06-23T08:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/say-hello-to-roboadmin-/</loc>
+    <lastmod>2009-06-16T10:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/andrew-s.-tanenbaum-on-voting-system./</loc>
+    <lastmod>2009-06-10T23:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ontologies-such-important-things-/</loc>
+    <lastmod>2009-06-09T06:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/waiting-the-new-iphone./</loc>
+    <lastmod>2009-06-08T05:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/anti-sec-group-destroyed-astalavista/</loc>
+    <lastmod>2009-06-04T23:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/zombie-photos-on-social-networks/</loc>
+    <lastmod>2009-05-26T00:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rfid-is-improving/</loc>
+    <lastmod>2009-05-20T00:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/breaking-into-your-home/</loc>
+    <lastmod>2009-05-13T10:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/interview./</loc>
+    <lastmod>2009-05-09T00:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-election-transparency-project/</loc>
+    <lastmod>2009-05-05T00:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/open-source-voting-system/</loc>
+    <lastmod>2009-04-20T04:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/sql-injection-to-get-access-to-os/</loc>
+    <lastmod>2009-04-18T02:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/italy-earthquake/</loc>
+    <lastmod>2009-04-06T23:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/fast-trak-fast-and-easier./</loc>
+    <lastmod>2009-04-06T02:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/most-of-electronic-voting-isnt-secure/</loc>
+    <lastmod>2009-03-25T23:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/keep-update-google-calendar-through-ical-/</loc>
+    <lastmod>2009-03-17T01:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/report-diebold-voting-system-has-delete-button-for-erasing-audit-logs/</loc>
+    <lastmod>2009-03-09T03:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-return-of-l0phtcrack/</loc>
+    <lastmod>2009-03-03T01:37:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/facebook-reverses-term-of-service./</loc>
+    <lastmod>2009-02-24T07:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-complexity-of-zero-knowledge/</loc>
+    <lastmod>2009-02-24T05:23:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/bro-intrusion-detection-system./</loc>
+    <lastmod>2009-02-17T00:09:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/still-no-privacy-for-people-screwed-by-facebooks-hackers/</loc>
+    <lastmod>2009-02-12T02:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/as3-easy-web-camera-snapshot/</loc>
+    <lastmod>2009-02-05T01:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/span-rspan-and-network-taps/</loc>
+    <lastmod>2009-01-29T02:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/microsoft-songsmith-...-...-is-it-real-/</loc>
+    <lastmod>2009-01-25T22:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/watching-hulu-through-boxee-outside-us./</loc>
+    <lastmod>2009-01-24T02:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/working-time-manarola-italy/</loc>
+    <lastmod>2009-01-22T00:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/common-passwords/</loc>
+    <lastmod>2009-01-20T01:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/huge-xterm-vulnerability./</loc>
+    <lastmod>2009-01-14T00:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-bluetooth-good-progresses/</loc>
+    <lastmod>2009-01-03T05:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/making-the-theoretical-possible/</loc>
+    <lastmod>2008-12-30T01:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/windows-media-player-integer-overflow./</loc>
+    <lastmod>2008-12-29T01:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/dolphin-emu-for-mac/</loc>
+    <lastmod>2008-12-28T08:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/introduction-to-emulators/</loc>
+    <lastmod>2008-12-27T02:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-3g-unlocked-/</loc>
+    <lastmod>2008-12-22T05:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/clickjacking-/</loc>
+    <lastmod>2008-12-19T02:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/stanford-on-iphone/</loc>
+    <lastmod>2008-12-18T08:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/how-iphones-touch-screen-works/</loc>
+    <lastmod>2008-12-09T04:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/apple-suggestion-get-an-av-/</loc>
+    <lastmod>2008-12-05T01:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mapple---the-simpsons/</loc>
+    <lastmod>2008-12-01T05:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/attackers-shoot-to-wireshark./</loc>
+    <lastmod>2008-11-27T02:17:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/history./</loc>
+    <lastmod>2008-11-21T05:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ddos-attacks-threaten-isp-infrastructure/</loc>
+    <lastmod>2008-11-16T23:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/futureland-plants./</loc>
+    <lastmod>2008-11-16T23:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-coolest-it-security-jobs/</loc>
+    <lastmod>2008-11-10T01:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/doom9-break-bd/</loc>
+    <lastmod>2008-11-03T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/find-the-gap./</loc>
+    <lastmod>2008-10-28T04:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/out-of-band-patch-from-microsoft/</loc>
+    <lastmod>2008-10-24T14:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/grabbing-the-web/</loc>
+    <lastmod>2008-10-20T01:51:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/fruux-free-mobileme/</loc>
+    <lastmod>2008-10-15T07:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/safari-on-iphone-still-vulnerable./</loc>
+    <lastmod>2008-10-07T02:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/nice-javascript-function-on-firefox/</loc>
+    <lastmod>2008-10-02T01:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/restroom./</loc>
+    <lastmod>2008-09-25T02:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/obfuscate-hello-world--funny/</loc>
+    <lastmod>2008-09-23T03:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/web-application-security-statistics/</loc>
+    <lastmod>2008-09-22T03:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-gprs-edge-modem/</loc>
+    <lastmod>2008-09-17T12:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/40-line-irc-client./</loc>
+    <lastmod>2008-09-11T00:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/security-on-evonting/</loc>
+    <lastmod>2008-09-08T01:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-quickpwn-for-mac-released./</loc>
+    <lastmod>2008-08-30T00:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/how-to-break-into-a-pin-locked-iphone/</loc>
+    <lastmod>2008-08-29T01:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/magic-sysrq-key/</loc>
+    <lastmod>2008-08-26T02:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/race-condition-or-antivirus-/</loc>
+    <lastmod>2008-08-24T23:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-hacking-applications./</loc>
+    <lastmod>2008-08-20T02:37:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/holler-back-not-voting-in-an-american-town/</loc>
+    <lastmod>2008-08-13T23:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/intelliscreen-cracking/</loc>
+    <lastmod>2008-08-11T08:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/finally-installer-4.0-works-/</loc>
+    <lastmod>2008-08-04T01:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphonelittle-bit-more-on-springboard/</loc>
+    <lastmod>2008-07-28T03:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/hackers-start-to-target-apple-macs/</loc>
+    <lastmod>2008-07-24T00:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/fixing-edge3gdt-on-iphone-3g/</loc>
+    <lastmod>2008-07-22T02:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/lynis-useful-auditing-tool/</loc>
+    <lastmod>2008-07-18T00:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/talking-to-iboot/</loc>
+    <lastmod>2008-07-13T22:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/its-time-for-looking-new-iphone./</loc>
+    <lastmod>2008-07-12T01:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/italy-you-cannot-choose-your-own-driver-plate./</loc>
+    <lastmod>2008-07-06T23:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/lets-try-a-new-honeypot/</loc>
+    <lastmod>2008-07-05T02:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/word-clouds-for-free./</loc>
+    <lastmod>2008-07-04T01:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/hear-your-bog-really-cool-/</loc>
+    <lastmod>2008-06-28T04:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/decaffeinatid-small-and-fast-ids./</loc>
+    <lastmod>2008-06-28T00:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/what-is-a-blog-/</loc>
+    <lastmod>2008-06-23T01:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/analyze-logs./</loc>
+    <lastmod>2008-06-17T02:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/sql-injection-will-be-more-and-more-easy-/</loc>
+    <lastmod>2008-06-17T02:09:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/intrusion-prevention-system-fake-television/</loc>
+    <lastmod>2008-06-12T03:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/is-data-loss-prevention-really-possible-/</loc>
+    <lastmod>2008-06-12T03:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/working-hard/</loc>
+    <lastmod>2008-05-27T04:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/thats-amazing-/</loc>
+    <lastmod>2008-05-20T00:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/debian-open-ssl-fiasco./</loc>
+    <lastmod>2008-05-16T15:37:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/client-fingerprint./</loc>
+    <lastmod>2008-05-15T02:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/funny-italians-signs./</loc>
+    <lastmod>2008-05-13T03:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/microsoft-captcha-broken./</loc>
+    <lastmod>2008-05-10T00:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/java-on-iphone-its-reality-/</loc>
+    <lastmod>2008-05-08T03:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/rtpbreak-reconstructing-rtp-sessions./</loc>
+    <lastmod>2008-05-08T03:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mampus-sso-with-no-password./</loc>
+    <lastmod>2008-05-05T23:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/would-you-like-elect-your-president-via-sms-/</loc>
+    <lastmod>2008-05-05T10:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/hibernations-attack-with-sandman./</loc>
+    <lastmod>2008-05-05T04:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mac-utilities./</loc>
+    <lastmod>2008-04-28T00:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mass-sql-injection/</loc>
+    <lastmod>2008-04-24T09:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ibuilder-only-for-windows-so-far./</loc>
+    <lastmod>2008-04-22T06:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/obama-site-hacked-/</loc>
+    <lastmod>2008-04-22T00:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/nice-spam-report-by-commtouch/</loc>
+    <lastmod>2008-04-21T00:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/fring-im-on-your-iphone-/</loc>
+    <lastmod>2008-04-15T13:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/bbc-offers-job-to-iplayer-hacker/</loc>
+    <lastmod>2008-04-15T11:44:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/saving-papers/</loc>
+    <lastmod>2008-04-14T10:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/macbook-air-reset-the-pmu/</loc>
+    <lastmod>2008-04-11T10:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/physical-security/</loc>
+    <lastmod>2008-04-07T04:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-password-meter/</loc>
+    <lastmod>2008-04-06T06:37:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yahsnarf./</loc>
+    <lastmod>2008-04-06T05:23:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/through-the-next-step./</loc>
+    <lastmod>2008-04-05T00:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/memories/</loc>
+    <lastmod>2008-04-04T08:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/how-to-find-the-right-source-/</loc>
+    <lastmod>2008-04-02T23:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/omniweb-a-nice-way-to-surf-web/</loc>
+    <lastmod>2008-04-02T15:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/its-time-to-build-own-firmware-/</loc>
+    <lastmod>2008-03-30T05:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/macbook-air-owned-in-2-minutes/</loc>
+    <lastmod>2008-03-29T01:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-different-web-application-testing-suite/</loc>
+    <lastmod>2008-03-25T03:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/php-5.2.5-and-prior--printf-integer-overflow-/</loc>
+    <lastmod>2008-03-24T05:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/new-jersey-election-discrepancies/</loc>
+    <lastmod>2008-03-21T00:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/defacements/</loc>
+    <lastmod>2008-03-20T05:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/safari-denial-of-service./</loc>
+    <lastmod>2008-03-19T11:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/animoto./</loc>
+    <lastmod>2008-03-19T10:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/is-yahoo-under-attack-/</loc>
+    <lastmod>2008-03-19T09:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/againits-cracking/</loc>
+    <lastmod>2008-03-17T05:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-freedom/</loc>
+    <lastmod>2008-03-15T02:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/thats-cool/</loc>
+    <lastmod>2008-03-15T02:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/italian-security-landscape/</loc>
+    <lastmod>2008-03-13T07:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/copy-and-paste-on-iphone/</loc>
+    <lastmod>2008-03-12T23:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/prime-iii-is-it-the-secure-voting-machine-/</loc>
+    <lastmod>2008-03-11T16:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/no-way-/</loc>
+    <lastmod>2008-03-10T03:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yes-im-back/</loc>
+    <lastmod>2008-03-10T01:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/coming-back./</loc>
+    <lastmod>2008-03-06T15:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mxtube-downloading-youtube-videos-on-your-iphone/</loc>
+    <lastmod>2008-03-05T19:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mms-for-iphone-/</loc>
+    <lastmod>2008-03-04T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/truecript-new-version./</loc>
+    <lastmod>2008-03-04T08:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/inside-american-rest-room./</loc>
+    <lastmod>2008-03-04T08:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/os-x--security-threat-./</loc>
+    <lastmod>2008-03-01T10:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/firmware-1.1.4/</loc>
+    <lastmod>2008-02-27T14:16:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/cold-boot-attacks-on-encryption-keys/</loc>
+    <lastmod>2008-02-22T14:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/browser-testing/</loc>
+    <lastmod>2008-02-20T08:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/discovering-potential-vulnerabilities-on-safari./</loc>
+    <lastmod>2008-02-10T10:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/asus-eee-vulnerable-by-default-/</loc>
+    <lastmod>2008-02-09T17:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/how-to-prevent-magic-pens-/</loc>
+    <lastmod>2008-02-06T15:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/is-your-browser-acid-/</loc>
+    <lastmod>2008-02-04T10:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/pimpmysafari/</loc>
+    <lastmod>2008-02-04T10:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/php-downloader-vulnerability/</loc>
+    <lastmod>2008-02-01T10:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/death-and-taxes-2008-poster/</loc>
+    <lastmod>2008-01-31T10:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/today-only-thank-you-guys./</loc>
+    <lastmod>2008-01-30T14:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yes-captcha-has-been-cracked./</loc>
+    <lastmod>2008-01-29T21:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-super-secret-iphone-key-/</loc>
+    <lastmod>2008-01-29T09:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/is-microsoft-making-zero-day-exploits-/</loc>
+    <lastmod>2008-01-28T11:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/fixing-installer-errors/</loc>
+    <lastmod>2008-01-26T13:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/news-on-1.1.3/</loc>
+    <lastmod>2008-01-23T10:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-iphone-perl-framework./</loc>
+    <lastmod>2008-01-21T10:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/1.1.3-jailbroken-./</loc>
+    <lastmod>2008-01-20T14:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/vista-for-free-/</loc>
+    <lastmod>2008-01-18T13:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/again-perl-framework./</loc>
+    <lastmod>2008-01-18T10:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/skype-videomood-vulnerability/</loc>
+    <lastmod>2008-01-18T08:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/changing-mac-on-iphone/</loc>
+    <lastmod>2008-01-16T09:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-perl-framework/</loc>
+    <lastmod>2008-01-14T15:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/this-election-day-hack-diebold-/</loc>
+    <lastmod>2008-01-11T09:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/an-interesting-spam-technique/</loc>
+    <lastmod>2008-01-10T08:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/when-miss-configuration-becomes-a-serious-problem./</loc>
+    <lastmod>2008-01-08T11:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-us-voting-machines/</loc>
+    <lastmod>2008-01-06T15:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/thinking-on-puppet./</loc>
+    <lastmod>2008-01-05T11:59:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/strange-connections-...-.../</loc>
+    <lastmod>2008-01-03T11:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/herd-intelligence-against-internet-malware/</loc>
+    <lastmod>2007-12-31T09:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/curttv-tigers-team/</loc>
+    <lastmod>2007-12-27T11:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/xmas-working-with-20-of-overflow-...-...-...-...-...-.../</loc>
+    <lastmod>2007-12-22T14:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ive-read-it-online-so-its-true./</loc>
+    <lastmod>2007-12-21T10:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/orkut-was-hacked-/</loc>
+    <lastmod>2007-12-20T09:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/in-my-mail-box-too./</loc>
+    <lastmod>2007-12-18T09:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/software-upgrading..-..-..-../</loc>
+    <lastmod>2007-12-17T11:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/news-on-iphone/</loc>
+    <lastmod>2007-12-15T16:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/elevator-and--peter-g.-neumann/</loc>
+    <lastmod>2007-12-13T19:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/during-some-free-time/</loc>
+    <lastmod>2007-12-11T20:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/annual-computer-security-applications-conference./</loc>
+    <lastmod>2007-12-07T15:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/california-electronic-voting./</loc>
+    <lastmod>2007-12-05T21:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/mac-book-pro-the-fastest-vista-notebook/</loc>
+    <lastmod>2007-12-04T11:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/sans-top-20/</loc>
+    <lastmod>2007-12-03T22:06:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/say-goodbye-to-robots.txt/</loc>
+    <lastmod>2007-11-30T11:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/really-funny./</loc>
+    <lastmod>2007-11-29T16:09:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/easy-password-checker./</loc>
+    <lastmod>2007-11-29T09:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/jumping-captcha./</loc>
+    <lastmod>2007-11-27T22:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-day-the-routers-died.../</loc>
+    <lastmod>2007-11-27T08:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ipod-touch-audio-line-in-discovered/</loc>
+    <lastmod>2007-11-26T20:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/xss-css-injection-on-ie7-and-firefox/</loc>
+    <lastmod>2007-11-26T13:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/thank-you-guys/</loc>
+    <lastmod>2007-11-25T12:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/big-scare-from-apple-/</loc>
+    <lastmod>2007-11-20T09:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/att-allows-denial-of-service/</loc>
+    <lastmod>2007-11-18T19:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/say-hello-to-spiderpig/</loc>
+    <lastmod>2007-11-17T11:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/a-restricted-test-apple-test./</loc>
+    <lastmod>2007-11-16T14:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/studying-covert-channels/</loc>
+    <lastmod>2007-11-14T23:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/verizon-has-confusing-ideas/</loc>
+    <lastmod>2007-11-14T21:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/the-first-macbook-pro-with-a-64gb-ssd/</loc>
+    <lastmod>2007-11-12T16:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/iphone-password-cracking./</loc>
+    <lastmod>2007-11-09T10:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/voting-machines-casted-wrong-candidate./</loc>
+    <lastmod>2007-11-09T09:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/leopard-data-loss-bug/</loc>
+    <lastmod>2007-11-07T11:33:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/how-to-detect-steganography./</loc>
+    <lastmod>2007-11-05T11:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/porn-to-break-captchas/</loc>
+    <lastmod>2007-11-02T08:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/yet-another-interesting-linux-distribution/</loc>
+    <lastmod>2007-10-31T12:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/automatic--jailbreak-for-iphone-and-ipod-touch/</loc>
+    <lastmod>2007-10-30T08:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/wordreference.com-vulnerable/</loc>
+    <lastmod>2007-10-29T14:42:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/after-a-week/</loc>
+    <lastmod>2007-10-27T14:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/password-cracking-speed-increased./</loc>
+    <lastmod>2007-10-26T14:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/funny-stuff/</loc>
+    <lastmod>2007-10-26T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/ant-script/</loc>
+    <lastmod>2007-10-25T11:54:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/java-insecurity/</loc>
+    <lastmod>2007-10-23T09:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/beats-of-boredom/</loc>
+    <lastmod>2007-10-23T09:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/httpbee.-an-interesting-project./</loc>
+    <lastmod>2007-10-22T09:41:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/meta-halloween-party./</loc>
+    <lastmod>2007-10-21T10:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/jing-project/</loc>
+    <lastmod>2007-10-20T15:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/new-application-luncher-able-to-changing-your-real-life-/</loc>
+    <lastmod>2007-10-20T15:04:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/paradigm-shift/</loc>
+    <lastmod>2007-10-20T14:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/pages/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/pages/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/pages/publications/</loc>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/cybersecurity/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/cybersecurity-malware-malware-analysis/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/</loc>
+    <lastmod>2017-04-29T06:11:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/pages/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://marcoramilli.com/post/</loc>
+    <lastmod>2017-04-29T06:11:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

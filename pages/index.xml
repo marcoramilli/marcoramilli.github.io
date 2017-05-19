@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Pages on Marco Ramilli </title>
+      <generator uri="https://gohugo.io">Hugo</generator>
+    <link>http://marcoramilli.com/pages/</link>
+    <language>en-us</language>
+    
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title></title>
+      <link>http://marcoramilli.com/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://marcoramilli.com/pages/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;about-me&#34;&gt;About Me&lt;/h1&gt;
+
+&lt;p&gt;My name is Marco Ramilli I am a computer security scientist with an intensive hacking background.
+I do have a MD in computer engineering and a PhD on computer security from University of Bologna. During my PhD program I worked for US Government (@ National Institute of Standards and Technology, Security Division) where I did intensive researches in Malware evasion techniques and penetration testing of electronic voting systems.&lt;/p&gt;
+
+&lt;p&gt;I do have experience on security testing since I have been  performing penetration testing on several US electronic voting systems. I&amp;rsquo;ve also been encharged of testing uVote voting system from the &lt;a href=&#34;http://attiministeriali.miur.it/media/156864/relazione_sintetica_sistema_uvote.pdf&#34;&gt;Italian Minister of homeland security&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I met Palantir Technologies where I was introduced to the Intelligence Ecosystem.
+I decided to amplify my cyber security experiences by diving into SCADA security issues with some of the most biggest industrial aglomerates in Italy.
+I finally decided to found &lt;a href=&#34;www.yoroi.company&#34;&gt;Yoroi&lt;/a&gt;: an innovative Managed Cyber Security Service Provider developing some of the most amazing cyber security defence center I&amp;rsquo;ve ever experienced !
+Now I technically lead Yoroi defending our customers strongly believing in: &lt;strong&gt;Defence Belongs To Humans&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In 1859, Charles Darwin published &amp;ldquo;The Origin of Species by Means of Natural Selection&amp;rdquo;, suggesting that survival depends on the ability to change as environmental conditions change, I&amp;rsquo;d like add to the equation the ability to defend which is the main reason why I decided to dedicate my life to Defence.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://marcoramilli.com/pages/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://marcoramilli.com/pages/projects/</guid>
+      <description>
+
+&lt;h1 id=&#34;projects&#34;&gt;Projects&lt;/h1&gt;
+
+&lt;p&gt;Following a small prject list where I am or I&amp;rsquo;ve been involved over the past years. I&amp;rsquo;d like to keep them in this page for personal memories.&lt;/p&gt;
+
+&lt;h3 id=&#34;malwarestats&#34;&gt;MalwareStats&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://2.bp.blogspot.com/-ChCScEjjuvU/Vf0ZSzypX-I/AAAAAAAAMb4/SSFcqacxRPU/s1600/Screen%2BShot%2B2015-09-19%2Bat%2B10.13.03.png&#34; width=&#34;50%&#34; align=&#34;left&#34; style=&#34;margin:10px 10px&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.malwarestats.org/&#34;&gt;MalwareStats&lt;/a&gt;. The continued growth in number and in complexity of malware is a well established fact. Malwares are no longer simple pieces of code that rely on unsuspecting users to spread and thrive. They can change, adapt and hide themselves from analysts, using very sophisticated techniques. Static analysis is complex and time consuming, and it could be difficult to deduce every possible malicious behaviour, yet it is often very effective because it hinders the capability of malware to detect the analysis environment. The purpose of this work is to provide valuable assistance to the phase of static analysis, supporting analysts in their exploration of code features, by letting them make more focused, statistically motivated and structured decisions.&lt;/p&gt;
+
+&lt;h3 id=&#34;malcontrol&#34;&gt;Malcontrol&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://3.bp.blogspot.com/-s3An4fzk_dk/U2NdJYFQbuI/AAAAAAAALsY/GgiZ4FybDTA/s1600/Screen+Shot+2014-05-02+at+10.49.49.png&#34; width=&#34;50%&#34; align=&#34;left&#34; style=&#34;margin:10px 10px&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;Gathering open data from malware analysis websites is the main target of Malware Control Monitor project. Visualize such a data by synthesize statistics highlighting where threats happen and what their impact is, could be useful to identify malware propagation. A backround node scrapes websites to grab malware informations and fills up a mongod database. An API node serves API useful to frontend layer. Public API are available, please read doc/index.html for a full list of API. If you are interested on developing a website scraper take as example one of the scrapers available into the scrapers folder. Each scraper must be a function &amp;lsquo;goScraper&amp;rsquo; ending-up saving scraped data to db using the functionsaveMalwareToDB respecting the db schema placed into schemas. Find more on this post and on &lt;a href=&#34;https://github.com/marcoramilli/malcontrol&#34;&gt;GitHub Repo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;secext&#34;&gt;SecExt&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://2.bp.blogspot.com/-_PLUWcy9at0/Tl9PptH3tsI/AAAAAAAAKxY/_4sOUgPK93w/s1600/settings-full.jpg&#34; width=&#34;40%&#34; align=&#34;left&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;SecExt. This project proposes a solution to a class of attacks, well exemplified by HTTPS stripping and CLickJacking, which leverage a combination of weak configuration choices to trick users into providing sensitive data through hijacked connections. Our solution is based on a browser extension that helps web users to detect this kind of integrity and authenticity breaches, by extracting relevant features from the browsed pages and comparing them to reference values coming from different sorts of trusted sources. The rationale behind the extension is discussed and its effectiveness is demonstrated with some quantitative results, gathered on the prototype that has been implemented for Mozilla Firefox. &lt;a href=&#34;https://code.google.com/archive/p/secureext/downloads&#34;&gt;Get code here&lt;/a&gt;.  More details on &lt;a href=&#34;http://deisnet.deis.unibo.it/nsl/securext/downloads.php&#34;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;mouseglove&#34;&gt;MouseGlove&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://mouseglove.sourceforge.net/pictures/ok-lato3.jpg&#34; width=&#34;40%&#34; align=&#34;left&#34; style=&#34;margin:10px 10px&#34;&gt;
+  &lt;a href=&#34;http://mouseglove.sourceforge.net/&#34;&gt;MouseGlove&lt;/a&gt; is an open source project for a new generation of mouse. The goal of this project is to provide an open source hardware and software stimulating new developers to improve the usability of computers through new interfaces. MouseGlove is a new kind of interface born for helping people affected by disabilities who cannot use common interfaces such as mouse and keyboard. MouseGlobe offers a natural way to move the screen pointer, click and drag objects. Each action is natural as using your hands to keep, move and touch real objects on a desktop. I encourage every developer to grab my source code and electronics and build an improved version of MouseGlove, keeping alive the next generation of computer mouse interfaces.&lt;/p&gt;
+
+&lt;h3 id=&#34;roboadmin&#34;&gt;RoboAdmin&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://roboadmin.sourceforge.net/img/RoboAdmin.jpg&#34; width=&#34;30%&#34; align=&#34;left&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://roboadmin.sourceforge.net/&#34;&gt;RoboAdmin&lt;/a&gt; Remote system&amp;rsquo;s administration is usually performed according to the standard client-server model. A service runs on the target system, either providing a remote view of the locally available administration tools (e.g: remote terminal, remote desktop), or implementing a back-end for the execution of complex commands received through a corresponding front-end (e.g.: web-based administration interfaces). The service usually exposes a single access point, which is the obvious target of attacks like, for instance: DoS or brute-force authentication attempts. Limiting the impact of these attacks is very difÞcult; usually one or more reactive or proactive techniques are exploited, as brießy summarized hereinafter. Access limitation solutions, like for example account lock-out and connection throttling, react to sus- pect activity (in terms of failed login attempts or exceedingly high trafÞc) that could be the symptom of an ongoing attack. In this way, however, they expose the legitimate administrator as well as the attacker to the same risk of being cut out of the server. Pre-authentication protocols, as port-knocking and Cryptographically Constantly Changing Port Opening (C3PO), tackle instead the problem of hiding the administration port to everyone but the legitimate administrator; the server recognizes a sequence of specially crafted packets sent by the administrator, and subsequently allows the originating address to access the administration port. The sequence is based on a shared secret, and usually involves sending several packets to the correct TCP or UDP ports within a time-frame. This approach also suffers from various drawbacks: Þrst, temporary lock-out can again be triggered by any malicious or fortuitous event that lets the server receive a wrong sequence; second, a special client is required to execute the protocol; third, trafÞc directed to unusual ports could be blocked before it reaches the server. Host- and network-based intrusion detection systems can help thwarting the attacks before they suc- ceed, but can not guarantee security against the vastly distributed attacks that are presently possible, especially considering the value of the target (that is full control of an Internet host). However, there is a signiÞcant difference between the administration service and the others usually provided by the same host. While the latter must typically be fairly visible to a varied audience, the former is intended solely for the legitimate system administrator. This peculiarity can be leveraged to protect the sensitive administration service from malicious exploitation attempts, by completely changing the access model. The goal of this research is to devise an unconventional model of communication between the system administrator and the remote administration interface. In the proposed solution, previously outlined in, the intrinsic vulnerability of the traditional scheme is addressed by reversing the client-server relation; an administration engine replaces the classical service, originating connections to an intermediate system rather then listening for connections. The immediate advantage arising from this design choice is that there is nothing to attack on the remote host. On the other hand, the introduction of an additional system in the security chain must be carefully evaluated, to avoid introducing unexpected attack paths, and eventually making the system less robust than it originally was. We claim that, if properly modeled and implemented, a platform based on the meeting of the server and its administrator on an intermediate system is expedient in terms of security, availability, usability and opportunity for future extension.&lt;/p&gt;
+
+&lt;h3 id=&#34;iena&#34;&gt;IENA&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://iena.sourceforge.net/img/iena.png&#34; width=&#34;30%&#34; align=&#34;left&#34;  style=&#34;margin:10px 10px&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://iena.sourceforge.net/&#34;&gt;IENA&lt;/a&gt;. During the last decade, the Information Society experienced an exponential growth of Internet-based distributed services, such as web access, e-mail and many other on-line applications dealing with communications, business administration, entertainment, education, commerce, banking, government, to name a few. The current scenario, with hundreds of millions of hosts connected to the network and an ever increasing number of customers and services available, brings the need for securing information exchange and storage as well as the systems and networks involved in this process, to prevent any misuse from unauthorized and malicious users. As a consequence, computer network security has become one of the major concerns both within the scientific community, as a hot research topic, and among system and network administrators, as a good practice in everyday work. It also presents several legal aspects which are not negligible at all. Distributed information and communication systems are constantly under attack by malicious Internet users who want to gain access to or corrupt sensible data, take control of hosts and network devices or simply compromise specific service availability. To perpetrate this illegitimate behaviors, a number of techniques are used by the so-called hackers, such as information gathering, port scanning, vulnerability exploitation, brute force attack, manin- the-middle attack, remote escalation, (distributed) denial of service and many more [1]. Another very popular technique to compromise network security is through the spreading of malicious software such as worms, viruses, trojans, which are able to expose Internet users and services to an extremely serious threat [2]. For these reasons, a number of system and network security tools such as antivirus and firewall software, intrusion detection systems (IDS), network IDS (NIDS), intrusion prevention systems (IPS) and many more have been developed in the past. The model assumed by the deployment of such tools is oriented to the adoption of a strategy based on closed policies, like strong information and communication encryption, limited and strictly controlled access to resources, thorough selection of essential services, constantly up-to-date knowledge of service vulnerabilities and related countermeasures, and so on. The intent of this work is to revise the common logic of the attack/defense paradigm in todayÕs network security and propose a different scheme using a distributed open approach to prevent network services exploitation that, combined with traditional security techniques, can improve the security level in networked environments.&lt;/p&gt;
+
+&lt;h3 id=&#34;spampig&#34;&gt;SpamPig&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://spampig.sourceforge.net/img/pig.png&#34; width=&#34;30%&#34; align=&#34;left&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://spampig.sourceforge.net/&#34;&gt;SpamPig&lt;/a&gt;. This Project born for research target. One of our target was &amp;ldquo;touch&amp;rdquo; tuProlog Limit, in fact with this intelligence antispam system we work with tens of Mega Byte prolog theory. As all sould know, Prolog has much goals but if you use it with a very big theory, the computational time of prolog engine is very hight ! In this particular case SpamPIG is very optimized so common user could kill his spam with this. In this version you could controll only a single mail box but in future we would like open this project to unlimited mail box. What you&amp;rsquo;ll find in this version: Swing Interface : Friendly Grafic User Interface. Prolog Engine: Powerful Prolog Engine to calculate spam probability. Auto Knowledge: Intelligint module that learn on your existing mail. Upadte Black List: Powerful but very slow tecnicque to create an automatic prolog theory (it takes 5 hours, it translate about 6MB of data) View Therory: Simple but efficient Theory viewer ( about 20 minutes ) View Mail: Simple but efficient Mail viewer ( very fast :-) )&lt;/p&gt;
+
+&lt;h3 id=&#34;rssecreader&#34;&gt;RSSecReader&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://3.bp.blogspot.com/-wUUQYx-nJE0/T2Gsp2hM4nI/AAAAAAAAK80/Ou7D5Mug6UI/s1600/Screen+Shot+2012-03-15+at+9.47.12+AM.png&#34; width=&#34;30%&#34; align=&#34;left&#34;&gt;
+&lt;a href=&#34;http://marcoramilli.blogspot.it/p/iphone-free-security-rss-reader.html&#34;&gt;RSSecReader&lt;/a&gt; RSSecReader is a freeware &amp;ldquo;out of App-store&amp;rdquo; application made for people who want to be always  up to date in security news. As written on the landing page this is a freeware and buggy application made in one night and let it available only because I thought it would be useful to security engineers who are traveling a lot. Please keep it as it is. I might update it as I might not. To learn more &lt;a href=&#34;http://marcoramilli.blogspot.it/2012/03/free-iphone-security-reader.html&#34;&gt;go here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;fronteretro-camera&#34;&gt;FronteRetro Camera&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://3.bp.blogspot.com/-XrsVjrbcusI/T6_Tb1txKSI/AAAAAAAALAs/4qZC1G_FOFU/s1600/Screen+Shot+2012-05-13+at+8.29.01+AM.png&#34; width=&#34;30%&#34; align=&#34;left&#34; style=&#34;margin:10px 10px&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/us/app/fronteretro-cam/id500724730?mt=8&#34;&gt;FronteRetro Camera&lt;/a&gt;. is an innovative application for photographers ! This revolutionizes the way to see pictures and to make them ! Why only the subject of the picture is included in the picture ? Why not the photographer ? After all the photographer is the artist who made the picture ! FronteRetro makes this possible. In one picture FronteRetro puts the subject of the picture and the image of the photographer !! No anonymous pictures anymore ! Use the Built-in buttons to share your pictures on FaceBook, Twitter, Tumblr and to send them directly to emails ! FronteRetro gives a signature to your photos ! The signature is the face of the artist !&lt;/p&gt;
+
+&lt;h3 id=&#34;ialarme&#34;&gt;iAlarME&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://1.bp.blogspot.com/-_057wi2uH_E/Tw22Z49Cz-I/AAAAAAAAK4k/CAp_uN4RY2o/s1600/Screen+Shot+2012-01-11+at+5.18.11+PM.png&#34; width=&#34;30%&#34; align=&#34;left&#34; style=&#34;margin:10px 10px&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/us/app/ialarme/id492751445?ls=1&amp;amp;mt=8&#34;&gt;iAlarME&lt;/a&gt;is another very simple application which helps you in protecting your device and/or your home from thieves. Assuming that the thief is in your property and that he sees your iPhone/iPAD and assuming  that he will steal it, iAlarME sets your device like a bait. The thief will grab it and the device will start to ring ! The main assumption behind this project is to make a cult object (like an iPhone) a bait for thieves.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;vespautility&#34;&gt;VespaUtility&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://1.bp.blogspot.com/-uFLVyUkH8lk/Tv2BNlLZlXI/AAAAAAAAK4Q/Tay2WAMuBoM/s1600/Screen+Shot+2011-12-30+at+10.14.39+AM.png&#34; width=&#34;30%&#34; align=&#34;left&#34; style=&#34;margin:10px 10px&#34;&gt;
+&lt;a href=&#34;https://itunes.apple.com/it/app/vespautility/id488579108?mt=8&#34;&gt;VespaUtility&lt;/a&gt; is a very simple application made for everybody loves the famous Italian Scooter &amp;ldquo;Vespa&amp;rdquo;. Through this simple app the user can check frame numbers, engines numbers, original colors, original components and can easily evaluate different kinds of vespas. For each different type of Vespa the application shows pictures and technical details. To know more about this application and to download it please go in the app store site here.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://marcoramilli.com/pages/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://marcoramilli.com/pages/publications/</guid>
+      <description>
+
+&lt;h1 id=&#34;selected-publications&#34;&gt;Selected Publications&lt;/h1&gt;
+
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.amazon.com/Designing-New-Electronic-Voting-System/dp/3843382301/ref=sr_1_1?ie=UTF8&amp;amp;qid=1320221346&amp;amp;sr=8-1&#34;&gt;Design A New Electronic Voting System: Towards Electronic Voting Systems.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.lulu.com/spotlight/mramilliatgmaildotcom&#34;&gt;A Design Methodology for Computer Security Testing&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;international-journals&#34;&gt;International Journals:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;An open and distributed approach to security and service exploitation prevention. ICT-SECURITY (ISSN:1724-1987) Series Year MARCH 2006.&lt;/li&gt;
+&lt;li&gt;RSA: Theoretical foundations and internal limits. ICT-SECURITY ( ISSN:1724-1987 )Series Year VI-JANUARYFEBRUARY.&lt;/li&gt;
+&lt;li&gt;BOF: Buffer Overflow and shell code injection in practice. ICT-SSECURITY (ISSN:1724-1987).&lt;/li&gt;
+&lt;li&gt;IENA: New Communications Security between Server and Client ICT-SSECURITY (ISSN:1724- 1987) Series Year VI-JUNE.&lt;/li&gt;
+&lt;li&gt;Redesigning Remote System Administration Paradigm For Enhanced Security And Flexibility. Com- puter Standard And Interfaces. Elsevier (International Journal) .&lt;/li&gt;
+&lt;li&gt;Iphone Forensic. ICTSECURITY( ISSN: 1724-1987 ) SeriesYear VIII.&lt;/li&gt;
+&lt;li&gt;Apple Super Drive: Set It Free ! hakin9 international Magazine, january 2009&lt;/li&gt;
+&lt;li&gt;Man in the middle attack to the HTTPS protocol. Security &amp;amp; Privacy (IEEE). January-February 2009 (p. 78-81)&lt;/li&gt;
+&lt;li&gt;Mnemonic Password Formula. ICTSECURITY( ISSN: 1724-1987 )SeriesYear VII-SPECIAL EDITION- MARCH .&lt;/li&gt;
+&lt;li&gt;The String Decoding Process.hakin9 international Magazine, June 2009.&lt;/li&gt;
+&lt;li&gt;Frightened By Links. Security &amp;amp; Privacy (IEEE), November 2009&lt;/li&gt;
+&lt;li&gt;Always the Same, Never the Same . Security &amp;amp; Privacy (IEEE), March 2010&lt;/li&gt;
+&lt;li&gt;Splitting the HTTPS Stream to Attack Secure Web Connections Security&amp;amp; Privacy (IEEE), November-December, 2010&lt;/li&gt;
+&lt;li&gt;A model for e-voting systems evaluation based on international standards: definition and experi- mental validation, International eService Journal, 2012&lt;/li&gt;
+&lt;li&gt;Raising Risk Awareness on the Adoption of Web 2.0 Technologies in Decision Making Processes, (here) 2012 Journal of Future Internet.&lt;/li&gt;
+&lt;li&gt;Retun-Oriented Programming. Security &amp;amp; Privacy (IEEE), November-December 2012&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;international-conferences&#34;&gt;International Conferences:&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;RoboAdmin: a different approach to remote system administration. ICEIS (International Confer- ence on Enterprise Information Systems), Portugal.&lt;/li&gt;
+&lt;li&gt;Adaptive filtering of comment spamming in multi-userforums and blogs. ICEIS (International Con- ference on Enterprise Information Systems), 2008&lt;/li&gt;
+&lt;li&gt;A messaging-based system for remote server administration. Network and System Security 2009(IEEE Conference), October 2009.&lt;/li&gt;
+&lt;li&gt;Network Attack Detection Based on Peer-to-Peer Clustering of SNMP Data. ICST QShine 2009, November 2009&lt;/li&gt;
+&lt;li&gt;Towards a practical and effective security testing methodology . ISCC 2010, by IEEE&lt;/li&gt;
+&lt;li&gt;An integrated application of security testing methodologies to e-voting systems, ePART2010, Springer LNCS&lt;/li&gt;
+&lt;li&gt;Multi-Stage Delivery Malware, MALWARE 2010, by IEEE&lt;/li&gt;
+&lt;li&gt;Arguments against the TrollWorkshop on Argumentation in Artificial Intelligence and Philosophy: computational and philosophical perspectives. AIxIA&lt;/li&gt;
+&lt;li&gt;Taking the best of both worlds: a comparison and integration of the US and EU approaches to e-voting systems evaluation,HICSS 2011, by IEEE&lt;/li&gt;
+&lt;li&gt;The Use of Security Patterns for Information Security in Public Sector Inter-Organizational Collaboration, eGOV 2011, Spring&lt;/li&gt;
+&lt;li&gt;Security considerations about the adoption of Web 2.0 technologies in sensitive eGovernment pro- cesses ,ICEGOV, Spring, 2011&lt;/li&gt;
+&lt;li&gt;Multiprocess Malware ,Malware (Malicious and Unwanted Software) 2011 IEEE, 2011&lt;/li&gt;
+&lt;li&gt;Results-Oriented Security ,Malware (Malicious and Unwanted Software) 2011 IEEE, 2011&lt;/li&gt;
+&lt;li&gt;Web management of electric vehicle fleets, Electrical Vehicle Symposium, EVS26&lt;/li&gt;
+&lt;li&gt;A Browser-based distributed system for the detection of HTTPS stripping attacks against web pages, SEC 2012 Conference, IFIP, Springer Proceedings.&lt;/li&gt;
+&lt;li&gt;Peer-to-Peer Data Mining Classifiers for Decentralized Detection of Network Attacks. ADC 2013&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
